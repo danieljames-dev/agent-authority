@@ -1,0 +1,25 @@
+{
+  "name": "agent-authority",
+  "version": "1.0.0",
+  "description": "Cryptographic authority boundaries for autonomous agents: a signed hash-chained ledger, capability envelopes bound to observed facts, and write-ahead replay protection. Zero runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "verify": "npm test"
+  },
+  "keywords": [
+    "authority",
+    "capability",
+    "ed25519",
+    "hash-chain",
+    "agent-security",
+    "threat-model",
+    "fitness-tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
