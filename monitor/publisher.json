@@ -1,0 +1,21 @@
+{
+  "schema": "aion.ops.publisher.v1",
+  "job": "AION Hourly Product Publisher",
+  "enabled": true,
+  "cadence": "hourly",
+  "targetPerHour": 2,
+  "firstScheduledAt": "2026-10-12T23:15:56Z",
+  "lastRunAt": null,
+  "lastSuccessfulRunAt": null,
+  "reportedAt": "2026-10-12T23:35:47.826Z",
+  "runState": "awaiting_first_report",
+  "lastHourVerifiedLaunches": null,
+  "last24hVerifiedLaunches": null,
+  "publishedUrls": [],
+  "recentRuns": [],
+  "blockers": [
+    "No publisher run receipt has been received by this dashboard yet.",
+    "Do not count Vercel READY deployments without functional public validation."
+  ],
+  "nextAction": "At each hourly run, verify actual new public functionality and publish an evidence-backed receipt here."
+}
