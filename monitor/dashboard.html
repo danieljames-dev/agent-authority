@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AION product publishing, release format and catalog monitor.">
+<title>AION | Product Operations Monitor</title>
+<style>
+:root{color-scheme:dark;--bg:#07111e;--panel:#12243a;--panel2:#162b40;--border:#2b435c;--text:#eaf5ff;--muted:#9fb5cd;--green:#78edc4;--amber:#f2c783;--blue:#91c2ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 10% 0%,#0d2b39 0,#07111e 42%,#07111e 100%);color:var(--text);font:14px/1.55 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+main{max-width:1300px;padding:30px 24px 90px;margin:auto}.overline{font-size:11px;letter-spacing:.18em;color:var(--green);font-weight:800}
+h1{font-size:clamp(32px,5vw,51px);line-height:1.05;letter-spacing:-.04em;margin:12px 0 9px}h2{font-size:19px;letter-spacing:-.02em;margin:0}h3{font-size:15px;margin:0}
+p{color:var(--muted);margin:9px 0}a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap}.actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.action{padding:10px 13px;border-radius:9px;border:1px solid var(--border);color:var(--text);font:inherit;background:#1a3046;cursor:pointer;text-decoration:none;display:inline-block}
+.action.primary{background:#126b55;border-color:#228d70;color:#fff}.action:hover{text-decoration:none;background:#22506a}.muted{color:var(--muted)}
+.warning{border-left:3px solid var(--amber);background:#222c38;padding:12px 15px;border-radius:5px;color:#ebd5ad;margin:25px 0 19px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:17px 0}.card,.panel{border:1px solid var(--border);border-radius:14px;background:var(--panel);padding:19px}
+.metric{position:relative;min-height:135px}.metric h3{font-size:12px;font-weight:650;color:#adc3d8}.metric strong{font-size:38px;letter-spacing:-.05em;line-height:1.35;display:block;margin:3px 0}.metric small{color:var(--muted);display:block;font-size:12px}.metric .tag{position:absolute;right:18px;top:17px}
+.tag{display:inline-flex;gap:5px;align-items:center;border:1px solid #385269;border-radius:99px;background:#223b50;color:#cfdeef;font-size:11px;font-weight:700;white-space:nowrap;padding:3px 9px}.tag.good{background:#16483e;color:#99f6d0;border-color:#2d765f}.tag.warn{color:var(--amber);border-color:#766343;background:#3c352c}.tag.plain{color:#a9bfd7;background:#1e354c}
+.sectionbar{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:24px;margin-bottom:12px}.sectionbar p{font-size:12px}
+.panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.panel p{font-size:13px}.panelheader{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:18px}.panelheader .overline{display:block;margin-bottom:5px}
+.info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.info small{display:block;color:#92abc3;font-size:12px;margin-bottom:3px}.info b{font-size:13px;font-weight:600;overflow-wrap:anywhere}
+.progress{height:10px;background:#294153;border-radius:9px;overflow:hidden;margin:-5px 0 19px}.progress div{height:100%;background:linear-gradient(90deg,#21a37c,#70e6bd);width:0}
+.description{font-size:12px;margin:14px 0 0}.formatnotes{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.formatnotes>div{padding:13px;border:1px solid #27435c;border-radius:10px;background:#152a3e}
+.formatnotes b{font-size:13px}.formatnotes p{font-size:12px;margin:4px 0 0}
+.statusline{display:flex;align-items:center;gap:8px;font-size:13px;color:#c7dcf0}.dot{height:8px;width:8px;background:var(--amber);border-radius:100%;flex:none}
+.notes{padding-left:19px;margin:9px 0;color:#b6c7d9;font-size:13px}.notes li{padding-bottom:7px}
+.tools{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 12px}input,select{border-radius:9px;padding:11px 12px;border:1px solid #35516b;background:#182e43;color:var(--text);font:inherit}input{min-width:220px;flex:1}
+.scroll{overflow-x:auto;border:1px solid #29465c;border-radius:12px}table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}th{background:#192d42;color:#c3d6ea;font-size:12px;text-transform:uppercase;letter-spacing:.06em;position:sticky;top:0}td,th{padding:13px 14px;border-bottom:1px solid #263f54;vertical-align:middle}td{color:#b8cfe3}td:first-child{min-width:205px;max-width:280px}td:last-child{min-width:140px}tbody tr:hover{background:#1c3548}tbody tr:last-child td{border-bottom:0}
+.pname{font-size:14px;font-weight:700;color:#ecf5ff;display:block}.secondaryline{font-size:11px;color:#819db6}.linkset{display:flex;gap:11px;flex-wrap:wrap}.small{font-size:12px}
+footer{border-top:1px solid #254359;margin-top:31px;padding-top:16px;color:#8da8bf;font-size:12px}
+@media(max-width:850px){.stats{grid-template-columns:repeat(2,1fr)}.panels{grid-template-columns:1fr}.formatnotes{grid-template-columns:1fr}}
+@media(max-width:460px){main{padding:22px 13px 70px}.metric{min-height:125px;padding:14px}.metric strong{font-size:30px}.metric .tag{position:static;margin-bottom:6px}.info{gap:9px}.top .actions{width:100%}.action{flex:1;text-align:center}}
+</style>
+</head>
+<body>
+<main>
+<header class="top">
+  <div><div class="overline">AI SERVICE CO / AION OPERATIONS</div><h1>Product launch monitor</h1><p>Release evidence, download availability, hourly publishing, and revenue readiness.</p></div>
+  <div class="actions"><a class="action" href="https://products-iota-one.vercel.app/" target="_blank" rel="noopener noreferrer">Products hub ↗</a><a class="action" href="https://catalog.aiserviceco.com" target="_blank" rel="noopener noreferrer">Catalog ↗</a><button class="action primary" id="refresh" type="button">Refresh ↻</button></div>
+</header>
+<div class="warning"><b>Three release types, three proofs.</b> Web = HTTP reachability (not full functionality). Download = downloadable HTML file saved and opened locally (not full offline processing QA). Install = a verified standalone package. A Vercel READY deployment alone counts as none of these. Sales require independent settlement evidence.</div>
+
+<section aria-label="Release format totals" class="stats">
+  <article class="card metric"><span class="tag good">WEB</span><h3>HTTP-reachable web products</h3><strong id="webCount">—</strong><small id="webSub">Historical reachability check</small></article>
+  <article class="card metric"><span class="tag good">DOWNLOAD</span><h3>Downloadable HTML files verified</h3><strong id="downloadCount">—</strong><small id="downloadSub">Saved and opened locally</small></article>
+  <article class="card metric"><span class="tag warn">INSTALL</span><h3>Verified desktop/mobile installers</h3><strong id="installCount">—</strong><small>No installable packages verified yet</small></article>
+  <article class="card metric"><h3>Publishing target</h3><strong>2 / hour</strong><small>Target, not proof of output</small></article>
+  <article class="card metric"><h3>Verified newly launched this hour</h3><strong id="launchedHour">—</strong><small id="launchSub">Awaiting completed job receipt</small></article>
+  <article class="card metric"><h3>Verified settled revenue</h3><strong id="revenue">—</strong><small>Do not confuse reach with money</small></article>
+</section>
+
+<div class="sectionbar"><h2>Scheduled work</h2><span class="small muted" id="lastUpdated">Checking feeds…</span></div>
+<div class="panels">
+  <section class="panel">
+    <div class="panelheader"><div><div class="overline">HOURLY JOB 01</div><h2>Product publisher</h2></div><span class="tag warn" id="publisherState">Awaiting receipt</span></div>
+    <div class="progress"><div id="progress"></div></div>
+    <div class="info"><div><small>Hourly goal</small><b>2 newly usable products</b></div><div><small>Actual verified</small><b id="verified">Unreported</b></div><div><small>Last completed run</small><b id="publisherRun">Unreported</b></div><div><small>Publisher feed</small><b id="publisherAge">Loading</b></div></div>
+    <p class="description">A deployment is only counted when independent public and functional evidence supports it.</p>
+  </section>
+  <section class="panel">
+    <div class="panelheader"><div><div class="overline">HOURLY JOB 02</div><h2>Catalog & format audit</h2></div><span class="tag warn" id="auditState">Awaiting receipt</span></div>
+    <div class="info"><div><small>Vercel projects inventoried</small><b id="projectCount">—</b></div><div><small>Product links checked</small><b id="linkCount">—</b></div><div><small>Full functional QA verified</small><b id="functionalCount">Unknown</b></div><div><small>Checkout QA verified</small><b id="checkoutCount">Unknown</b></div><div><small>Last scheduled audit run</small><b id="auditRun">Unreported</b></div><div><small>Audit feed</small><b id="auditAge">Loading</b></div></div>
+    <p class="description">Reports Web / Download / Install independently, preserving unknowns.</p>
+  </section>
+</div>
+
+<div class="sectionbar"><h2>What each status means</h2></div>
+<div class="formatnotes">
+  <div><b class="muted">🌐 Web · Reachable</b><p>A link returned HTTP 200 on a recorded check. That alone is not a functionality test.</p></div>
+  <div><b class="muted">⬇ Download · Locally opened</b><p>Downloaded HTML, opened from a local file, saw upload controls, and no page-script errors. Processing QA remains separate.</p></div>
+  <div><b class="muted">💻 Install · Independently verified</b><p>An actual signed/package installer or supported distribution with installation testing. Unknown until evidence exists.</p></div>
+</div>
+
+<div class="sectionbar"><h2>Operational blockers</h2><p id="health" class="statusline"><span class="dot"></span><span>Loading monitor feeds</span></p></div>
+<div class="panel"><ul id="blockers" class="notes"><li>Loading evidence…</li></ul><p id="feedError" class="small muted"></p></div>
+
+<section class="panel" style="margin-top:18px">
+  <div class="sectionbar" style="margin-top:0"><div><h2>Products: Web / Download / Install</h2><p class="small">The table shows evidence by release type—not promises about apps, offline processing, checkout, or revenue.</p></div><span class="tag" id="displayCount">— entries</span></div>
+  <div class="tools"><input id="search" type="search" placeholder="Find a product" aria-label="Search products"><select id="filter" aria-label="Filter releases"><option value="all">All products</option><option value="download">Verified HTML downloads</option><option value="web">HTTP-reachable web</option><option value="install">Verified installers</option><option value="unknown">Download status unknown</option></select></div>
+  <div class="scroll"><table><thead><tr><th>Product</th><th>Web</th><th>Download</th><th>Install</th><th>Functional QA</th><th>Links</th></tr></thead><tbody id="rows"><tr><td colspan="6">Loading properties…</td></tr></tbody></table></div>
+  <p class="small muted" id="checkTime"></p>
+</section>
+<footer>
+  Data source: versioned public-safe AION audit and publisher receipts. Browser refresh every five minutes; hourly scheduler results appear when successfully reported. Unknown is not zero or failure. The dashboard includes no credentials or customer information.
+</footer>
+</main>
+<script>
+"use strict";
+const FEED="https://raw.githubusercontent.com/danieljames-dev/agent-authority/aion-ops-monitor-feed/monitor/";
+const $=id=>document.getElementById(id);
+let audit=null,publisher=null;
+function date(v){if(!v)return "Not reported";const d=new Date(v);return Number.isFinite(d.getTime())?d.toLocaleString():"Not reported";}
+function ago(v){if(!v)return"Never";const n=(Date.now()-new Date(v).getTime())/60000;if(!Number.isFinite(n))return"Unknown";return n<0?"Clock offset":n<60?Math.round(n)+" min ago":n<1440?Math.round(n/60)+" hr ago":Math.round(n/1440)+" day(s) ago";}
+function fmt(v){return v===null||v===undefined?"Unknown":String(v);}
+function external(href,text){const a=document.createElement("a");a.textContent=text;a.target="_blank";a.rel="noopener noreferrer";try{const url=new URL(href);if(url.protocol!=="https:")throw Error("not https");a.href=url.href;}catch(e){a.removeAttribute("href");a.textContent="Link unavailable";}return a;}
+function tag(text,kind){const el=document.createElement("span");el.className="tag "+(kind||"plain");el.textContent=text;return el;}
+function isWeb(p){return p?.formats?.web?.status==="http_reachable"||(p.httpStatus===200);}
+function isDownload(p){return p?.formats?.download?.status==="html_download_verified";}
+function isInstall(p){return p?.formats?.install?.status==="verified";}
+function fill(id,text){$(id).textContent=text;}
+function showStatus(id,p){const el=$(id);if(p?.lastRunAt){el.textContent="Run reported";el.className="tag good";}else{el.textContent="Awaiting first receipt";el.className="tag warn";}}
+function statusText(){const t=document.createElement("span");t.textContent="Loading monitor feeds";return t;}
+function render(){
+if(publisher){
+showStatus("publisherState",publisher);
+fill("publisherRun",date(publisher.lastRunAt));fill("verified",fmt(publisher.lastHourVerifiedLaunches));fill("launchedHour",fmt(publisher.lastHourVerifiedLaunches));fill("launchSub",publisher.lastRunAt?"Latest reported run":"Awaiting first run receipt");
+fill("publisherAge",ago(publisher.reportedAt));
+const n=publisher.lastHourVerifiedLaunches;fill("lastUpdated","Feeds refreshed "+new Date().toLocaleTimeString());
+$("progress").style.width=typeof n==="number"?Math.max(0,Math.min(100,n/2*100))+"%":"0%";
+}
+if(audit){
+const i=audit.inventory||{};showStatus("auditState",audit);fill("webCount",fmt(i.webReachableCount??i.http200Count));fill("webSub","From "+fmt(i.publicProductCards)+" recorded links · HTTP only");fill("downloadCount",fmt(i.downloadHtmlVerifiedCount));fill("downloadSub",fmt(i.downloadLocalOpenVerifiedCount)+" opened after saving");fill("installCount",fmt(i.installerReleaseVerifiedCount));fill("projectCount",fmt(i.vercelProjectCount));fill("linkCount",fmt(i.publicProductCards));fill("functionalCount",fmt(i.functionalVerifiedCount));fill("checkoutCount",fmt(i.checkoutVerifiedCount));fill("auditRun",date(audit.lastRunAt));fill("auditAge",ago(audit.reportedAt));fill("checkTime","Web last audited "+date(i.lastHttpProbeAt)+". HTML download smoke checks "+date(audit.distributionEvidence?.verifiedAt)+".");
+const revenue=i.settledRevenueUsd;fill("revenue",revenue===null||revenue===undefined?"Unknown":"$"+Number(revenue).toFixed(2));
+renderTable();
+}
+const blocks=[...(publisher?.blockers||[]),...(audit?.blockers||[])].filter(Boolean);const ul=$("blockers");ul.replaceChildren();for(const s of [...new Set(blocks)]){const li=document.createElement("li");li.textContent=s;ul.appendChild(li);}if(!ul.childElementCount){const li=document.createElement("li");li.textContent="No blockers reported (does not imply all gates are cleared).";ul.append(li);}
+}
+function renderTable(){
+const rows=$("rows");rows.replaceChildren();let a=Array.isArray(audit?.products)?audit.products:[];const q=$("search").value.trim().toLowerCase(),f=$("filter").value;
+a=a.filter(p=>String(p.name||"").toLowerCase().includes(q)).filter(p=>f==="all"||(f==="web"&&isWeb(p))||(f==="download"&&isDownload(p))||(f==="install"&&isInstall(p))||(f==="unknown"&&!isDownload(p)));
+fill("displayCount",a.length+" shown");
+for(const p of a){
+const tr=document.createElement("tr"),name=document.createElement("td"),b=document.createElement("b"),sub=document.createElement("span");b.className="pname";b.textContent=p.name;sub.className="secondaryline";sub.textContent="HTTP checked: "+date(p.checkAt||p.formats?.web?.checkedAt);name.append(b,sub);
+const web=document.createElement("td");web.append(tag(isWeb(p)?"HTTP 200":"Unknown",isWeb(p)?"good":"plain"));
+const down=document.createElement("td");down.append(tag(isDownload(p)?"HTML opened":"Unknown",isDownload(p)?"good":"plain"));
+const inst=document.createElement("td");inst.append(tag(isInstall(p)?"Installer verified":"Not verified",isInstall(p)?"good":"warn"));
+const functional=document.createElement("td");functional.append(tag(p.functionalStatus==="verified"?"Verified":"Not verified",p.functionalStatus==="verified"?"good":"plain"));
+const links=document.createElement("td");const group=document.createElement("div");group.className="linkset";if(p.formats?.web?.url||p.url)group.append(external(p.formats?.web?.url||p.url,"Web ↗"));if(isDownload(p)){group.append(external("https://products-iota-one.vercel.app/","Get HTML ↗"));}if(isInstall(p)&&p.formats?.install?.url)group.append(external(p.formats.install.url,"Installer ↗"));links.append(group);
+tr.append(name,web,down,inst,functional,links);rows.append(tr);
+}
+if(!a.length){const tr=document.createElement("tr"),td=document.createElement("td");td.colSpan=6;td.className="muted";td.textContent="No matching products with verified evidence in this category.";tr.append(td);rows.append(tr);}
+}
+async function readFeed(which){const r=await fetch(FEED+which+".json?ts="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error(which+": HTTP "+r.status);const v=await r.json();if(!v||typeof v!=="object")throw Error(which+": invalid status JSON");return v;}
+async function refresh(){const button=$("refresh");button.disabled=true;button.textContent="Refreshing…";
+const results=await Promise.allSettled([readFeed("publisher"),readFeed("audit")]);
+if(results[0].status==="fulfilled")publisher=results[0].value;if(results[1].status==="fulfilled")audit=results[1].value;
+render();
+const problems=results.filter(x=>x.status==="rejected");const health=$("health");health.replaceChildren();const dot=document.createElement("span");dot.className="dot";health.append(dot,document.createTextNode(problems.length?"One or more feeds unavailable":(!publisher?.lastRunAt||!audit?.lastRunAt)?"Feeds loaded · awaiting hourly receipts":"Both feeds loaded"));
+const staleness=[publisher,audit].some(x=>!x?.reportedAt||Date.now()-new Date(x.reportedAt).getTime()>2*60*60*1000);if(staleness)health.append(document.createTextNode(" · stale receipt"));
+fill("feedError",problems.map(x=>String(x.reason?.message||x.reason)).join("; ")||"Both feed snapshots fetched successfully. This does not establish that hourly jobs have completed.");
+button.disabled=false;button.textContent="Refresh ↻";fill("lastUpdated","Page refreshed "+new Date().toLocaleTimeString());
+}
+$("refresh").addEventListener("click",refresh);$("search").addEventListener("input",renderTable);$("filter").addEventListener("change",renderTable);refresh();setInterval(refresh,300000);
+</script>
+</body>
+</html>
