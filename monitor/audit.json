@@ -17,7 +17,11 @@
     "non200Count": 0,
     "functionalVerifiedCount": null,
     "checkoutVerifiedCount": null,
-    "settledRevenueUsd": null
+    "settledRevenueUsd": null,
+    "webReachableCount": 31,
+    "downloadHtmlVerifiedCount": 5,
+    "downloadLocalOpenVerifiedCount": 5,
+    "installerReleaseVerifiedCount": 0
   },
   "products": [
     {
@@ -27,7 +31,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/odoo-import-doctor/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Free Planning Tools Hub",
@@ -36,7 +63,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/free-planning-tools/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Agency Reseller Margin Calculator",
@@ -45,7 +95,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/agency-reseller-margin-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Late-Payment Cost Calculator",
@@ -54,7 +127,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://late-payment-cost-calculator.vercel.app/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Missed-Call Cost Calculator",
@@ -63,7 +159,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://missed-call-cost-calculator-ivory.vercel.app/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Subscription Waste Audit",
@@ -72,7 +191,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/subscription-waste-audit/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Scope Creep Cost Calculator",
@@ -81,7 +223,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/scope-creep-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Team Capacity Planner",
@@ -90,7 +255,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/team-capacity-planner/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Customer Churn Cost Calculator",
@@ -99,7 +287,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/customer-churn-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Project Deposit Coverage Calculator",
@@ -108,7 +319,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/project-deposit-coverage-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Rework Cost Calculator",
@@ -117,7 +351,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/rework-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Client Concentration Calculator",
@@ -126,7 +383,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/client-concentration-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Meeting Cost Calculator",
@@ -135,7 +415,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/meeting-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Vendor Price Increase Impact Calculator",
@@ -144,7 +447,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/vendor-price-increase-impact-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Payment Fee Impact Calculator",
@@ -153,7 +479,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/payment-fee-impact-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Inventory Stockout Opportunity Calculator",
@@ -162,7 +511,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/inventory-stockout-opportunity-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Training Time Cost Calculator",
@@ -171,7 +543,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/training-time-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Equipment Downtime Cost Calculator",
@@ -180,7 +575,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/equipment-downtime-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Overtime Cost Impact Calculator",
@@ -189,7 +607,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/overtime-cost-impact-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Returns Processing Cost Calculator",
@@ -198,7 +639,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/returns-processing-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Warranty Claim Cost Calculator",
@@ -207,7 +671,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/warranty-claim-cost-calculator/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Website Chat Bot - Standard",
@@ -216,7 +703,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://website-chat-bot-standard.vercel.app/en/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Quote & Margin Board",
@@ -225,7 +735,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://quote-margin-board.vercel.app/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Supply Cost & Reorder Board",
@@ -234,7 +767,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://supply-cost-reorder-board.vercel.app/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Speed-to-Lead Audit",
@@ -243,7 +799,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://speed-to-lead-audit.vercel.app/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "Contract Review Prep Pack",
@@ -252,7 +831,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://contract-commitment-extractor.vercel.app/",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "not_verified",
+          "url": null,
+          "format": null,
+          "localOpen": "not_verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": null
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "MetaStrip",
@@ -261,7 +863,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/metastrip/MetaStrip.html",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "html_download_verified",
+          "url": "https://products-iota-one.vercel.app/metastrip/MetaStrip.html",
+          "format": "html",
+          "localOpen": "verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": "2026-10-12T23:53:59.730Z"
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "BatchMate",
@@ -270,7 +895,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/batchmate/BatchMate.html",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "html_download_verified",
+          "url": "https://products-iota-one.vercel.app/batchmate/BatchMate.html",
+          "format": "html",
+          "localOpen": "verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": "2026-10-12T23:53:59.730Z"
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "SheetTidy",
@@ -279,7 +927,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/sheettidy/SheetTidy.html",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "html_download_verified",
+          "url": "https://products-iota-one.vercel.app/sheettidy/SheetTidy.html",
+          "format": "html",
+          "localOpen": "verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": "2026-10-12T23:53:59.730Z"
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "IconForge",
@@ -288,7 +959,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/iconforge/IconForge.html",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "html_download_verified",
+          "url": "https://products-iota-one.vercel.app/iconforge/IconForge.html",
+          "format": "html",
+          "localOpen": "verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": "2026-10-12T23:53:59.730Z"
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     },
     {
       "name": "RenameKit",
@@ -297,7 +991,30 @@
       "checkAt": "2026-10-12T20:40:37Z",
       "functionalStatus": "not_verified",
       "checkoutStatus": "not_verified",
-      "price": "not_verified"
+      "price": "not_verified",
+      "formats": {
+        "web": {
+          "status": "http_reachable",
+          "url": "https://products-iota-one.vercel.app/renamekit/RenameKit.html",
+          "httpStatus": 200,
+          "checkedAt": "2026-10-12T20:40:37Z",
+          "functionalVerified": false
+        },
+        "download": {
+          "status": "html_download_verified",
+          "url": "https://products-iota-one.vercel.app/renamekit/RenameKit.html",
+          "format": "html",
+          "localOpen": "verified",
+          "functionalOffline": "not_verified",
+          "checkedAt": "2026-10-12T23:53:59.730Z"
+        },
+        "install": {
+          "status": "not_verified",
+          "url": null,
+          "platforms": [],
+          "checkedAt": null
+        }
+      }
     }
   ],
   "recentRuns": [],
@@ -306,5 +1023,11 @@
     "Free Data Cleaner Unicode field-key data-loss bug requires repair and independent QA",
     "Stripe payment and settled revenue not independently reconciled"
   ],
-  "nextAction": "Run hourly probes and publish evidence-backed status updates."
+  "nextAction": "On each hourly audit, refresh separate Web, Download, Install evidence and verify real functionality before promoting a release.",
+  "distributionEvidence": {
+    "verifiedAt": "2026-10-12T23:53:59.730Z",
+    "method": "Chrome Playwright: download links saved five HTML files and opened each from file:// with upload controls and no page JavaScript errors; this is NOT end-to-end offline processing QA.",
+    "webEvidence": "Historical 31/31 HTTP 200 HEAD check at 2026-10-12T20:40:37Z; HTTP reachability is NOT functionality.",
+    "installEvidence": "No installable apps or packages have been verified; unknown is not proof of absence."
+  }
 }
