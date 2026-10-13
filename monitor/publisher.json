@@ -5,17 +5,36 @@
   "cadence": "hourly",
   "targetPerHour": 2,
   "firstScheduledAt": "2026-10-12T23:15:56Z",
-  "lastRunAt": null,
+  "lastRunAt": "2026-10-13T16:53:23.322Z",
   "lastSuccessfulRunAt": null,
-  "reportedAt": "2026-10-12T23:35:47.826Z",
-  "runState": "awaiting_first_report",
+  "reportedAt": "2026-10-13T16:53:23.322Z",
+  "runState": "verified_inspection_release_blocked",
   "lastHourVerifiedLaunches": null,
   "last24hVerifiedLaunches": null,
   "publishedUrls": [],
-  "recentRuns": [],
-  "blockers": [
-    "No publisher run receipt has been received by this dashboard yet.",
-    "Do not count Vercel READY deployments without functional public validation."
+  "recentRuns": [
+    {
+      "atUtc": "2026-10-13T16:53:23.322Z",
+      "kind": "subordinate_read_only_inspection",
+      "result": "RELEASE_BLOCKED",
+      "newSkuLaunchesVerified": 0,
+      "scope": "President-approved new-SKU pipeline only",
+      "observedExecutorQueue": {
+        "active": 0,
+        "inbox": 0,
+        "done": 184,
+        "blocked": 271
+      },
+      "receipt": "SKU 2 R3 repair mission BLOCKED_PROVIDER_EXHAUSTED, 2 Fable attempts; no R3 candidate",
+      "qa": "SKU 2 R2 Grok exercised browser tests and identified long-URL QR optical scannability defect; no accepted final verdict",
+      "sku3": "Local candidate exists but unreviewed and unpublished; register not reconciled"
+    }
   ],
-  "nextAction": "At each hourly run, verify actual new public functionality and publish an evidence-backed receipt here."
+  "blockers": [
+    "SKU 2 FREE release HOLD: R2 long-link QR optical-readability failure; R3 repair mission blocked after two provider session-limit attempts (reset reported 5:10 p.m. ET Oct 13).",
+    "SKU 2 R2 Grok QA receipt: no final verdict (primaryVerdict NONE), therefore no exact-version release acceptance.",
+    "Existing SKU 2 Vercel candidate SSO-protected; public functionality, rollback and paid fulfillment not verified. SKU 3 local candidate is not a launch."
+  ],
+  "nextAction": "Atlas only: reconcile actual queue vs stale ACTIVE status, restore one authorized zero-spend R3 repair route after provider reset or lawful fallback, then different-family acceptance/optical tests, leak scan, public browser and rollback gates. No paid checkout until merchant and fulfillment verified.",
+  "lastRunVerifiedNewSkuLaunches": 0
 }
