@@ -5,14 +5,29 @@
   "cadence": "hourly",
   "targetPerHour": 2,
   "firstScheduledAt": "2026-10-12T23:15:56Z",
-  "lastRunAt": "2026-10-13T16:53:23.322Z",
+  "lastRunAt": "2026-10-13T20:53:42.372Z",
   "lastSuccessfulRunAt": null,
-  "reportedAt": "2026-10-13T16:53:23.322Z",
-  "runState": "verified_inspection_release_blocked",
+  "reportedAt": "2026-10-13T20:53:42.372Z",
+  "runState": "verified_inspection_and_local_red_reproduction_release_blocked",
   "lastHourVerifiedLaunches": null,
   "last24hVerifiedLaunches": null,
   "publishedUrls": [],
   "recentRuns": [
+    {
+      "atUtc": "2026-10-13T20:53:42.372Z",
+      "kind": "subordinate_read_only_inspection_and_local_browser_regression",
+      "result": "RELEASE_BLOCKED_RED_REPRODUCED",
+      "newSkuLaunchesVerified": 0,
+      "observedExecutorQueue": {
+        "active": 0,
+        "inbox": 0,
+        "done": 184,
+        "blocked": 271
+      },
+      "sku2": "R2 frozen SHA-256 b41c2b10f6d2e42be533650210a23eab7f11e002ea759a8f92232bb4055b123c; long-URL QR optical defect; R3 blocked by provider session exhaustion 2/2 attempts; no requeue or public release.",
+      "sku3": "R1 SHA-256 84d1fad9c9eb8b4abbb54c52fc803727b86cbba7f930ac96cf70ae4be0660725; independent local Chrome/Playwright RED reproduction: duplicate id=status count 2; work-status select option count 2 before Clear, 0 after Clear. Local candidate only; not released.",
+      "durableCheckpoint": "PRODUCT-PUBLISHER-CHECKPOINT-20261013T2053Z.json"
+    },
     {
       "atUtc": "2026-10-13T16:53:23.322Z",
       "kind": "subordinate_read_only_inspection",
@@ -31,10 +46,10 @@
     }
   ],
   "blockers": [
-    "SKU 2 FREE release HOLD: R2 long-link QR optical-readability failure; R3 repair mission blocked after two provider session-limit attempts (reset reported 5:10 p.m. ET Oct 13).",
-    "SKU 2 R2 Grok QA receipt: no final verdict (primaryVerdict NONE), therefore no exact-version release acceptance.",
-    "Existing SKU 2 Vercel candidate SSO-protected; public functionality, rollback and paid fulfillment not verified. SKU 3 local candidate is not a launch."
+    "SKU 2 FREE release HOLD: Grok browser tests found optically undecodable long-URL QR output; R3 repair blocked by Claude Fable session-limit exhaustion (2/2 attempts; reset reported 5:10 p.m. ET Oct 13; not yet confirmed recovered).",
+    "SKU 2 R2 exact-version non-builder acceptance remains incomplete; anonymous public, rollback and offline release functionality not independently proven; paid merchant/entitlement unverified.",
+    "SKU 3 R1 local Chrome regression reproduces duplicate id=status destroying Work status select options after Clear; requires isolated fix, frozen exact-version QA, not a launch."
   ],
-  "nextAction": "Atlas only: reconcile actual queue vs stale ACTIVE status, restore one authorized zero-spend R3 repair route after provider reset or lawful fallback, then different-family acceptance/optical tests, leak scan, public browser and rollback gates. No paid checkout until merchant and fulfillment verified.",
+  "nextAction": "Under sole Atlas controller: after actual 5:10 p.m. ET provider recovery, use one legitimate nonduplicate R3 QR-safety repair route; verify native 210px optical decoding/fail-closed, freeze new source, different-family independent QA, leak/privacy scan, public functionality and rollback before launch. SKU 3 duplicate-id RED test is ready for future isolated repair. No paid release pending merchant/fulfillment proof.",
   "lastRunVerifiedNewSkuLaunches": 0
 }
