@@ -28,7 +28,7 @@
     20
   ],
   "selectedProductId": 2,
-  "selectedMeansWorkerRunning": true,
+  "selectedMeansWorkerRunning": false,
   "products": [
     {
       "id": 1,
@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-02-review-campaign-cross-family-qa-r1-20261013",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-13T12:45:53.508389+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-13T12:52:01.026596+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
-    "waitingMissions": 0,
-    "blockedMissions": 267,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "activeMissions": 0,
+    "waitingMissions": 1,
+    "blockedMissions": 268,
+    "lastMissionOutcome": "blocked",
+    "lastMissionState": "BLOCKED_PROVIDER_EXHAUSTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,16 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T12:52:02.847Z",
+      "productId": null,
+      "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
+    },
+    {
+      "atUtc": "2026-10-13T12:52:02.847Z",
+      "productId": 2,
+      "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
+    },
     {
       "atUtc": "2026-10-13T12:13:41.777Z",
       "productId": 2,
@@ -583,19 +593,9 @@
       "atUtc": "2026-10-13T04:31:02.329Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T00:29:39.257Z",
-      "productId": 2,
-      "message": "#2 Review Request Campaign Kit: local test candidate and protected preview recorded; public release not verified."
-    },
-    {
-      "atUtc": "2026-10-13T00:26:00Z",
-      "productId": null,
-      "message": "President approved the 20-product build backlog."
     }
   ],
-  "checkedAtUtc": "2026-10-13T12:46:02.930Z",
-  "materialFingerprint": "a70994e9a1731f654858932e0f2713e52f0a9f842e92a2b6ad2af0430ffb5d74",
-  "materialChangedAtUtc": "2026-10-13T12:13:41.777Z"
+  "checkedAtUtc": "2026-10-13T12:52:02.847Z",
+  "materialFingerprint": "bba8c8f2e4493900864f8552a4bfc2e5c5975e2662c180facb3a3cabf911edfd",
+  "materialChangedAtUtc": "2026-10-13T12:52:02.847Z"
 }
