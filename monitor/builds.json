@@ -520,13 +520,13 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T16:38:38.981201+00:00",
+    "heartbeatAtUtc": "2026-10-13T16:43:53.859990+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
-    "waitingMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 269,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "retry",
+    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T16:44:01.026Z",
+      "productId": null,
+      "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
+    },
     {
       "atUtc": "2026-10-13T16:34:00.440Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-13T12:13:41.777Z",
       "productId": 2,
       "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
-    },
-    {
-      "atUtc": "2026-10-13T12:12:06.386Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-13T16:39:00.551Z",
-  "materialFingerprint": "70f0341d1150877eae03625a69923bd9d2128f6e21ef8fdb90f570c444151ffa",
-  "materialChangedAtUtc": "2026-10-13T16:34:00.440Z"
+  "checkedAtUtc": "2026-10-13T16:44:01.026Z",
+  "materialFingerprint": "70920638a4954e5c7ed139d1eb904f11ca188b2897f70dcf68a8a986d8cc65cb",
+  "materialChangedAtUtc": "2026-10-13T16:44:01.026Z"
 }
