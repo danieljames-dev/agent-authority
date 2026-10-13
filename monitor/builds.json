@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T16:43:53.859990+00:00",
+    "missionId": "svp-approved-02-review-kit-r3-qr-scannability-20261013",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-13T16:44:23.944997+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
-    "waitingMissions": 1,
-    "blockedMissions": 269,
-    "lastMissionOutcome": "retry",
-    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
+    "waitingMissions": 0,
+    "blockedMissions": 270,
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T16:45:00.806Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-13T16:44:01.026Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-13T12:52:02.847Z",
       "productId": 2,
       "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
-    },
-    {
-      "atUtc": "2026-10-13T12:13:41.777Z",
-      "productId": 2,
-      "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
     }
   ],
-  "checkedAtUtc": "2026-10-13T16:44:01.026Z",
-  "materialFingerprint": "70920638a4954e5c7ed139d1eb904f11ca188b2897f70dcf68a8a986d8cc65cb",
-  "materialChangedAtUtc": "2026-10-13T16:44:01.026Z"
+  "checkedAtUtc": "2026-10-13T16:45:00.806Z",
+  "materialFingerprint": "a0146e8065c6a803f9589a338ca44b256cfeb1c1d6ed35b4f476a976734d7aaa",
+  "materialChangedAtUtc": "2026-10-13T16:45:00.806Z"
 }
