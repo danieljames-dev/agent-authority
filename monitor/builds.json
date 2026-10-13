@@ -28,7 +28,7 @@
     20
   ],
   "selectedProductId": 2,
-  "selectedMeansWorkerRunning": true,
+  "selectedMeansWorkerRunning": false,
   "products": [
     {
       "id": 1,
@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-02-review-campaign-cross-family-qa-r1-20261013-s1-20261013T125201Z",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-13T13:03:33.083999+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-13T13:05:52.623160+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
     "blockedMissions": 268,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "lastMissionOutcome": "done",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,16 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T13:06:01.873Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
+    {
+      "atUtc": "2026-10-13T13:06:01.873Z",
+      "productId": 2,
+      "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
+    },
     {
       "atUtc": "2026-10-13T12:58:03.145Z",
       "productId": null,
@@ -583,19 +593,9 @@
       "atUtc": "2026-10-13T05:17:05.634Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T05:12:05.581Z",
-      "productId": null,
-      "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
-    },
-    {
-      "atUtc": "2026-10-13T04:52:02.154Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-13T13:04:01.970Z",
-  "materialFingerprint": "e9c286a46c8688d299202f2d1410e502dd021f84281eefd8a4354679b697c210",
-  "materialChangedAtUtc": "2026-10-13T12:58:03.145Z"
+  "checkedAtUtc": "2026-10-13T13:06:01.873Z",
+  "materialFingerprint": "fba01b4ec2ecf2dab6a6d4871a71259e4e8932dd16bf201d7b90d48b10962879",
+  "materialChangedAtUtc": "2026-10-13T13:06:01.873Z"
 }
