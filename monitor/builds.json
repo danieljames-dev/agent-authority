@@ -28,7 +28,7 @@
     20
   ],
   "selectedProductId": 2,
-  "selectedMeansWorkerRunning": false,
+  "selectedMeansWorkerRunning": true,
   "products": [
     {
       "id": 1,
@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T12:52:01.026596+00:00",
+    "missionId": "svp-approved-02-review-campaign-cross-family-qa-r1-20261013-s1-20261013T125201Z",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-13T12:57:32.303671+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
-    "waitingMissions": 1,
+    "activeMissions": 1,
+    "waitingMissions": 0,
     "blockedMissions": 268,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "BLOCKED_PROVIDER_EXHAUSTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,16 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T12:58:03.145Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
+    {
+      "atUtc": "2026-10-13T12:58:03.145Z",
+      "productId": 2,
+      "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
+    },
     {
       "atUtc": "2026-10-13T12:52:02.847Z",
       "productId": null,
@@ -583,19 +593,9 @@
       "atUtc": "2026-10-13T04:52:02.154Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T04:51:02.206Z",
-      "productId": null,
-      "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
-    },
-    {
-      "atUtc": "2026-10-13T04:31:02.329Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-13T12:52:02.847Z",
-  "materialFingerprint": "bba8c8f2e4493900864f8552a4bfc2e5c5975e2662c180facb3a3cabf911edfd",
-  "materialChangedAtUtc": "2026-10-13T12:52:02.847Z"
+  "checkedAtUtc": "2026-10-13T12:58:03.145Z",
+  "materialFingerprint": "e9c286a46c8688d299202f2d1410e502dd021f84281eefd8a4354679b697c210",
+  "materialChangedAtUtc": "2026-10-13T12:58:03.145Z"
 }
