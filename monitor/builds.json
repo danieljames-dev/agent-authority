@@ -518,14 +518,14 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T04:25:41.995898+00:00",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-13T04:30:42.624924+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 265,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "BLOCKED_PROVIDER_EXHAUSTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -533,6 +533,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T04:31:02.329Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-13T00:29:39.257Z",
       "productId": 2,
@@ -544,7 +549,7 @@
       "message": "President approved the 20-product build backlog."
     }
   ],
-  "checkedAtUtc": "2026-10-13T04:26:02.370Z",
-  "materialFingerprint": "455626311e01a455643e7f904790456ba26532fb2a730680de59615124951904",
-  "materialChangedAtUtc": "2026-10-13T03:28:01.706Z"
+  "checkedAtUtc": "2026-10-13T04:31:02.329Z",
+  "materialFingerprint": "99f9d08cf58207a75a11c44910aecd7108896a2e197182975d1c0201528510b6",
+  "materialChangedAtUtc": "2026-10-13T04:31:02.329Z"
 }
