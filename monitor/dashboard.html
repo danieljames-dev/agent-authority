@@ -256,13 +256,13 @@ function render(){
  set("buildActive",e.activeMissions);set("buildInbox",e.waitingMissions);set("buildBlocked",e.blockedMissions);
  set("buildExecutorState",(e.state||"UNKNOWN")+(unhealthy?" · heartbeat stale at last observation":feedStale?" · observation stale":" · heartbeat healthy at last observation"));
  let workerMessage=(Number(e.activeMissions)===0?"No product worker is currently confirmed active. ":"")+"Executor state "+(e.state||"unknown")+". Last recorded mission result: "+(e.lastMissionState||"unknown")+".";
- set("buildExecutorNote",workerMessage);
+ if(s.selectedMeansWorkerRunning)workerMessage="Cross-family independent QA for product #2 is running in the single Atlas executor. Review outcome is pending; public/checkout gates remain closed.";set("buildExecutorNote",workerMessage);
  const focus=s.products?.find(x=>x.id===s.selectedProductId);
  if(focus){
   set("buildCurrentName","#"+String(focus.id).padStart(2,"0")+" "+focus.name);
-  set("buildCurrentStatus",focus.stageLabel+" · Proposed price: "+focus.proposedPrice);
+  set("buildCurrentStatus",(s.selectedMeansWorkerRunning?"Independent QA running · ":"")+focus.stageLabel+" · Proposed price: "+focus.proposedPrice);
   set("buildGateCount",(focus.completedGates??"Unknown")+"/"+(focus.totalGates||6));
-  set("buildCurrentEvidence",focus.evidence);
+  set("buildCurrentEvidence",(s.selectedMeansWorkerRunning?"The cross-family QA reviewer is actively testing this exact candidate. Verdict pending. ":"")+focus.evidence);
   const rail=el("buildGateRail");rail.replaceChildren();
   for(const [key,v] of Object.entries(focus.gates||{})){const span=document.createElement("span");span.className="stage-pill"+(v?" passed":"");span.textContent=(v?"✓ ":"○ ")+gateText(key);rail.append(span);}
  }else{set("buildCurrentName","No active selection in data");set("buildCurrentStatus","Source missing selected SKU");}
