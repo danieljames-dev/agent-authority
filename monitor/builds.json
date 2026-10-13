@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-13T00:29:39.257Z",
+  "lastSourceChangeAtUtc": "2026-10-13T03:27:26.652Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -519,7 +519,7 @@
   },
   "executor": {
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T03:23:54.097274+00:00",
+    "heartbeatAtUtc": "2026-10-13T03:27:54.904682+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -544,7 +544,7 @@
       "message": "President approved the 20-product build backlog."
     }
   ],
-  "checkedAtUtc": "2026-10-13T03:24:01.726Z",
-  "materialFingerprint": "ced4dfd51e6952516e0d7b20a5c276dfb01a4b3eb5dfb44abb3169cd2ef56ca9",
-  "materialChangedAtUtc": "2026-10-13T01:11:06.337Z"
+  "checkedAtUtc": "2026-10-13T03:28:01.706Z",
+  "materialFingerprint": "455626311e01a455643e7f904790456ba26532fb2a730680de59615124951904",
+  "materialChangedAtUtc": "2026-10-13T03:28:01.706Z"
 }
