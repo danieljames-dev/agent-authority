@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T16:07:56.081986+00:00",
+    "missionId": "svp-approved-02-review-campaign-r2-cross-family-acceptance-grok-20261013",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-13T16:11:48.492951+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 268,
-    "lastMissionOutcome": "done",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,16 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T16:12:01.026Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
+    {
+      "atUtc": "2026-10-13T16:12:01.026Z",
+      "productId": 2,
+      "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
+    },
     {
       "atUtc": "2026-10-13T13:06:01.873Z",
       "productId": null,
@@ -583,19 +593,9 @@
       "atUtc": "2026-10-13T06:06:02.114Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T05:58:02.337Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-13T05:17:05.634Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-13T16:08:00.920Z",
-  "materialFingerprint": "fba01b4ec2ecf2dab6a6d4871a71259e4e8932dd16bf201d7b90d48b10962879",
-  "materialChangedAtUtc": "2026-10-13T13:06:01.873Z"
+  "checkedAtUtc": "2026-10-13T16:12:01.026Z",
+  "materialFingerprint": "d4e4d7fd0ced8fd9407eca33dca3d541486fc33f6a240bbe2cad4a1003580d34",
+  "materialChangedAtUtc": "2026-10-13T16:12:01.026Z"
 }
