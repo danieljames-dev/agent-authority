@@ -32,6 +32,35 @@ p{color:var(--muted);margin:9px 0}a{color:var(--green);text-decoration:none}a:ho
 footer{border-top:1px solid #254359;margin-top:31px;padding-top:16px;color:#8da8bf;font-size:12px}
 @media(max-width:850px){.stats{grid-template-columns:repeat(2,1fr)}.panels{grid-template-columns:1fr}.formatnotes{grid-template-columns:1fr}}
 @media(max-width:460px){main{padding:22px 13px 70px}.metric{min-height:125px;padding:14px}.metric strong{font-size:30px}.metric .tag{position:static;margin-bottom:6px}.info{gap:9px}.top .actions{width:100%}.action{flex:1;text-align:center}}
+
+/* AION president-approved 20-product build monitor */
+.build-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px;margin:15px 0}
+.build-metrics>div{background:#10273a;border:1px solid #2d4a60;border-radius:10px;padding:13px}
+.build-metrics small{display:block;font-size:11px;color:#a1b7cf;letter-spacing:.01em}.build-metrics strong{display:block;font-size:27px;line-height:1.2;margin-top:4px;font-variant-numeric:tabular-nums}
+.live-bar{display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.build-focus{display:grid;grid-template-columns:1.1fr 1fr;gap:16px;border:1px solid #315b60;background:linear-gradient(120deg,#122e3b,#102238);border-radius:12px;padding:19px;margin-top:13px}
+.build-focus h3{font-size:22px;margin:5px 0 4px;line-height:1.2}.build-focus p{margin:5px 0}
+.stage-rail{display:flex;flex-wrap:wrap;gap:7px;margin:13px 0 8px}
+.stage-pill{font-size:11px;border:1px solid #3c526b;border-radius:20px;color:#acc1d5;padding:4px 9px;background:#1b344c}
+.stage-pill.passed{background:#1b5749;border-color:#287e67;color:#aaf5d7}
+.status-cluster{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.status-cluster span{font-size:12px;color:#c0d1e1}
+.tracker-exec{padding:12px;border-radius:9px;background:#202f3f;border:1px solid #3a5068}
+.tracker-exec b{font-size:13px}
+#buildFeedState{white-space:nowrap}
+.build-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.build-search{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 10px}.build-search input{flex:1;min-width:190px}.build-search select{min-width:160px}
+#buildTable td{white-space:normal;min-width:0;vertical-align:middle}#buildTable td:first-child{min-width:240px}
+#buildTable th{white-space:nowrap}#buildTable .phase{font-size:12px;font-weight:750}
+#buildTable .source-note{font-size:11px;color:#8eaac1}
+#buildTable .num{font-size:12px;color:#9cb7cd;margin-right:5px;font-variant-numeric:tabular-nums}
+#buildTable tr.featured{background:#173d43}
+#buildTable tr{transition:background .15s}
+.activity-list{padding-left:19px;font-size:12px;color:#bed0e2;margin:8px 0}
+.activity-list li{margin:7px 0}
+@media(max-width:900px){.build-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.build-focus{grid-template-columns:1fr}}
+@media(max-width:550px){.build-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.build-metrics strong{font-size:25px}.build-focus{padding:13px}}
+
 </style>
 </head>
 <body>
@@ -49,6 +78,57 @@ footer{border-top:1px solid #254359;margin-top:31px;padding-top:16px;color:#8da8
   <article class="card metric"><h3>Publishing target</h3><strong>2 / hour</strong><small>Target, not proof of output</small></article>
   <article class="card metric"><h3>Verified newly launched this hour</h3><strong id="launchedHour">—</strong><small id="launchSub">Awaiting completed job receipt</small></article>
   <article class="card metric"><h3>Verified settled revenue</h3><strong id="revenue">—</strong><small>Do not confuse reach with money</small></article>
+</section>
+
+
+<section class="panel" id="approvedBuildTracker" aria-labelledby="trackerTitle" style="margin:18px 0 23px">
+ <div class="live-bar">
+  <div><div class="overline">PRESIDENT-APPROVED PRODUCT PIPELINE</div><h2 id="trackerTitle" style="font-size:24px;margin:4px 0">Live build tracker · 20 approved</h2><p class="small">One new product at a time. Showing evidence-backed stage and gate results, not guessed percentages.</p></div>
+  <div class="build-actions"><span id="buildFeedState" class="tag warn">Connecting…</span><button type="button" id="buildRefresh" class="action">Check updates ↻</button></div>
+ </div>
+ <div class="build-metrics" aria-label="Approved product pipeline counts">
+  <div><small>Approved</small><strong id="buildApproved">—</strong></div>
+  <div><small>Awaiting build</small><strong id="buildWaiting">—</strong></div>
+  <div><small>Built candidates</small><strong id="buildCandidates">—</strong></div>
+  <div><small>Public functional releases</small><strong id="buildPublic">—</strong></div>
+  <div><small>Paid & fulfillment verified</small><strong id="buildPaid">—</strong></div>
+ </div>
+ <div class="build-focus">
+  <div>
+   <span class="overline">CURRENT PRESIDENTIAL SELECTION</span>
+   <h3 id="buildCurrentName">Loading approved backlog…</h3>
+   <p id="buildCurrentStatus" class="muted">Checking latest production evidence.</p>
+   <p class="small"><strong id="buildGateCount">—</strong> independently tracked release gates. These are not a time-to-completion estimate.</p>
+   <div class="stage-rail" id="buildGateRail" aria-label="Current product release gates"></div>
+   <p class="small muted" id="buildCurrentEvidence"></p>
+  </div>
+  <div class="tracker-exec">
+   <div class="overline">EXECUTOR / REPORTER HEALTH</div>
+   <h3 style="margin:6px 0" id="buildExecutorState">Checking controller heartbeat…</h3>
+   <div class="status-cluster">
+    <span>Active missions: <b id="buildActive">—</b></span>
+    <span>Waiting missions: <b id="buildInbox">—</b></span>
+    <span>Blocked: <b id="buildBlocked">—</b></span>
+   </div>
+   <p id="buildExecutorNote" class="small muted">A live heartbeat does not prove product work is progressing.</p>
+   <p class="small muted">Last Windows snapshot: <b id="buildChecked">—</b></p>
+   <p class="small muted">Last backlog change: <b id="buildModified">—</b></p>
+  </div>
+ </div>
+ <div class="sectionbar"><h2 style="font-size:17px">All 20 approved products</h2><span class="small muted" id="buildShownCount">Waiting for feed</span></div>
+ <div class="build-search">
+  <input id="buildSearch" type="search" placeholder="Search approved products" aria-label="Search approved products">
+  <select id="buildFilter" aria-label="Filter approved product stages">
+   <option value="all">All stages</option><option value="queued">Awaiting build</option><option value="candidate">Built / in review</option><option value="blocked">Blocked</option><option value="public">Public verified</option><option value="paid">Paid verified</option>
+  </select>
+ </div>
+ <div class="scroll">
+  <table id="buildTable"><thead><tr><th>Rank / product</th><th>Build stage</th><th>Proof gates</th><th>Web</th><th>Download</th><th>Install</th><th>Stripe</th></tr></thead>
+  <tbody id="buildRows"><tr><td colspan="7">Loading approved build register…</td></tr></tbody></table>
+ </div>
+ <div class="sectionbar"><h2 style="font-size:17px">Latest recorded activity</h2></div>
+ <ul class="activity-list" id="buildActivity"><li>No verified build events received yet.</li></ul>
+ <p class="small muted" id="buildMonitorDisclaimer">This page polls the versioned monitoring feed every 30 seconds. The Windows watcher checks the durable backlog every minute and publishes changes immediately or a heartbeat approximately every five minutes. If the host or Git connection stops, the page will show stale data rather than pretend work is continuing.</p>
 </section>
 
 <div class="sectionbar"><h2>Scheduled work</h2><span class="small muted" id="lastUpdated">Checking feeds…</span></div>
@@ -144,5 +224,85 @@ button.disabled=false;button.textContent="Refresh ↻";fill("lastUpdated","Page 
 }
 $("refresh").addEventListener("click",refresh);$("search").addEventListener("input",renderTable);$("filter").addEventListener("change",renderTable);refresh();setInterval(refresh,300000);
 </script>
+
+<script>
+(function(){
+"use strict";
+const FEED_URL="https://raw.githubusercontent.com/danieljames-dev/agent-authority/aion-ops-monitor-feed/monitor/builds.json";
+const el=id=>document.getElementById(id); let snapshot=null, lastFetchFailed=false;
+const set=(id,v)=>{if(el(id))el(id).textContent=(v===undefined||v===null)?"Unknown":String(v)};
+function date(s){if(!s)return"Not reported";let d=new Date(s);return Number.isNaN(d.getTime())?"Not reported":d.toLocaleString()}
+function age(s){if(!s)return Infinity;return Date.now()-new Date(s).getTime()}
+function stamp(s){if(!s)return"Unknown";const n=age(s);return !Number.isFinite(n)?"Unknown":n<0?"Clock difference":n<60000?"Just now":n<3600000?Math.round(n/60000)+" min ago":n<86400000?Math.round(n/3600000)+" hr ago":Math.round(n/86400000)+" days ago"}
+function makeTag(s,kind){const n=document.createElement("span");n.className="tag "+(kind||"plain");n.textContent=s;return n}
+function gateText(k){return({approved:"Approved",built:"Built",tested:"Smoke tested",independentQa:"Independent QA",publicFunctionality:"Public functional",paidFulfillment:"Paid + delivered"})[k]||k}
+function badgeFor(p){
+ if(p.stage==="public"||p.stage==="paid")return makeTag(p.stage==="paid"?"Paid ready":"Public verified","good");
+ if(p.stage==="candidate"||p.stage==="reviewed")return makeTag("Built candidate","warn");
+ if(p.stage==="blocked")return makeTag("Blocked","warn");
+ return makeTag("Queued","plain");
+}
+function mark(p,typ){if(typ==="web")return p.web==="public_functional_verified"?"Public verified":p.web==="protected_candidate"?"Protected candidate":"Not live";if(typ==="download")return p.download==="html_export_local_smoke_passed"?"Sign export tested":p.download==="not_built"?"Not built":"Unknown";if(typ==="install")return p.install==="not_built"?"Not built":p.install==="verified"?"Installer verified":"Unknown";if(typ==="checkout")return p.checkout==="fulfillment_verified"?"Verified checkout":p.checkout==="not_configured"?"Not configured":"Unverified";return"Unknown"}
+function render(){
+ if(!snapshot)return;const s=snapshot;
+ set("buildApproved",s.approvedTotal);set("buildWaiting",s.counts?.queued);
+ set("buildCandidates",s.counts?.candidates);set("buildPublic",s.counts?.publicFunctionalityVerified);set("buildPaid",s.counts?.paidAndFulfillmentVerified);
+ set("buildChecked",date(s.checkedAtUtc)+" ("+stamp(s.checkedAtUtc)+")");set("buildModified",date(s.lastSourceChangeAtUtc));
+ const delta=age(s.checkedAtUtc),state=el("buildFeedState");
+ if(lastFetchFailed){state.textContent="Connection failed · cached data";state.className="tag warn";}
+ else if(delta>8*60*1000){state.textContent="Stale · last checked "+stamp(s.checkedAtUtc);state.className="tag warn";}
+ else{state.textContent="Tracking · checked "+stamp(s.checkedAtUtc);state.className="tag good";}
+ const e=s.executor||{},unhealthy=e.heartbeatHealthy===false || age(e.heartbeatAtUtc)>120000;
+ set("buildActive",e.activeMissions);set("buildInbox",e.waitingMissions);set("buildBlocked",e.blockedMissions);
+ set("buildExecutorState",(e.state||"UNKNOWN")+(unhealthy?" · stale heartbeat":" · heartbeat current"));
+ let workerMessage=(Number(e.activeMissions)===0?"No product worker is currently confirmed active. ":"")+"Executor state "+(e.state||"unknown")+". Last recorded mission result: "+(e.lastMissionState||"unknown")+".";
+ set("buildExecutorNote",workerMessage);
+ const focus=s.products?.find(x=>x.id===s.selectedProductId);
+ if(focus){
+  set("buildCurrentName","#"+String(focus.id).padStart(2,"0")+" "+focus.name);
+  set("buildCurrentStatus",focus.stageLabel+" · Proposed price: "+focus.proposedPrice);
+  set("buildGateCount",(focus.completedGates??"Unknown")+"/"+(focus.totalGates||6));
+  set("buildCurrentEvidence",focus.evidence);
+  const rail=el("buildGateRail");rail.replaceChildren();
+  for(const [key,v] of Object.entries(focus.gates||{})){const span=document.createElement("span");span.className="stage-pill"+(v?" passed":"");span.textContent=(v?"✓ ":"○ ")+gateText(key);rail.append(span);}
+ }else{set("buildCurrentName","No active selection in data");set("buildCurrentStatus","Source missing selected SKU");}
+ renderRows(s);
+ const history=el("buildActivity");history.replaceChildren();let acts=Array.isArray(s.activity)?s.activity.slice(0,8):[];
+ if(acts.length){for(const a of acts){const li=document.createElement("li");li.textContent=(date(a.atUtc)+" · "+a.message);history.append(li)}}
+ else{const li=document.createElement("li");li.textContent="Last source change "+date(s.lastSourceChangeAtUtc)+"; awaiting new release milestone receipts.";history.append(li);}
+}
+function renderRows(s){
+ let p=Array.isArray(s.products)?s.products:[],q=(el("buildSearch").value||"").trim().toLowerCase(),f=el("buildFilter").value;
+ p=p.filter(x=>x.name.toLowerCase().includes(q)||String(x.id).includes(q)).filter(x=>f==="all"||x.stage===f||(f==="candidate"&&x.stage==="reviewed"));
+ const order=s.rankedExecutionOrder||[];p.sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));
+ set("buildShownCount",p.length+" shown · "+(s.products?.length||0)+" approved");
+ const body=el("buildRows");body.replaceChildren();
+ for(const x of p){
+  const tr=document.createElement("tr");if(x.id===s.selectedProductId)tr.className="featured";
+  const a=document.createElement("td");const title=document.createElement("span"),sub=document.createElement("div");title.className="pname";title.textContent="#"+String(x.id).padStart(2,"0")+" "+x.name;sub.className="source-note";sub.textContent="Priority "+(order.indexOf(x.id)+1)+" · "+x.proposedPrice+" (proposed)";a.append(title,sub);
+  const b=document.createElement("td");b.append(badgeFor(x));
+  const c=document.createElement("td");c.textContent=(x.completedGates??"?")+"/"+(x.totalGates||6)+" passed";
+  const d=document.createElement("td");d.textContent=mark(x,"web");
+  const e=document.createElement("td");e.textContent=mark(x,"download");
+  const g=document.createElement("td");g.textContent=mark(x,"install");
+  const h=document.createElement("td");h.textContent=mark(x,"checkout");
+  tr.append(a,b,c,d,e,g,h);body.append(tr);
+ }
+ if(!p.length){const tr=document.createElement("tr"),td=document.createElement("td");td.colSpan=7;td.textContent="No matching approved product build status.";tr.append(td);body.append(tr);}
+}
+async function poll(){
+ const button=el("buildRefresh");button.disabled=true;button.textContent="Checking…";
+ try{let r=await fetch(FEED_URL+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("Feed returned "+r.status);
+  const d=await r.json();if(d.schema!=="aion.approvedBuildTracker.v1"||!Array.isArray(d.products)||d.products.length!==20)throw Error("Invalid build feed");
+  snapshot=d;lastFetchFailed=false;render();
+ }catch(e){lastFetchFailed=true;if(snapshot)render();else{const state=el("buildFeedState");state.textContent="Unable to load tracking feed";state.className="tag warn";set("buildCurrentStatus","Feed unavailable; do not assume builds have stopped or succeeded.");}}
+ finally{button.disabled=false;button.textContent="Check updates ↻";}
+}
+el("buildRefresh").addEventListener("click",poll);el("buildSearch").addEventListener("input",()=>snapshot&&renderRows(snapshot));el("buildFilter").addEventListener("change",()=>snapshot&&renderRows(snapshot));
+el("refresh").addEventListener("click",poll);
+poll();setInterval(poll,30000);setInterval(()=>{if(snapshot)render()},60000);
+})();
+</script>
+
 </body>
 </html>
