@@ -595,7 +595,7 @@
       "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
     }
   ],
-  "checkedAtUtc": "2026-10-13T22:25:00.456Z",
+  "checkedAtUtc": "2026-10-13T22:31:00.426Z",
   "materialFingerprint": "725671580cdeea8df9127e2ae1c28c97516af2178c2f1a084387c6a92569924b",
   "materialChangedAtUtc": "2026-10-13T22:25:00.456Z"
 }
