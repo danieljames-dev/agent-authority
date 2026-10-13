@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-approved-02-review-campaign-r2-cross-family-acceptance-grok-20261013",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-13T16:22:49.163597+00:00",
+    "heartbeatAtUtc": "2026-10-13T16:27:49.636944+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-13T16:23:01.018Z",
+  "checkedAtUtc": "2026-10-13T16:28:03.329Z",
   "materialFingerprint": "d4e4d7fd0ced8fd9407eca33dca3d541486fc33f6a240bbe2cad4a1003580d34",
   "materialChangedAtUtc": "2026-10-13T16:12:01.026Z"
 }
