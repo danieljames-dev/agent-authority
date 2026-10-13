@@ -28,7 +28,7 @@
     20
   ],
   "selectedProductId": 2,
-  "selectedMeansWorkerRunning": false,
+  "selectedMeansWorkerRunning": true,
   "products": [
     {
       "id": 1,
@@ -518,8 +518,9 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
+    "missionId": "svp-approved-02-review-campaign-cross-family-qa-r1-20261013",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-13T12:12:00.020502+00:00",
+    "heartbeatAtUtc": "2026-10-13T12:13:30.377973+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -533,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T12:13:41.777Z",
+      "productId": 2,
+      "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
+    },
     {
       "atUtc": "2026-10-13T12:12:06.386Z",
       "productId": null,
@@ -589,7 +595,7 @@
       "message": "President approved the 20-product build backlog."
     }
   ],
-  "checkedAtUtc": "2026-10-13T12:12:06.387Z",
-  "materialFingerprint": "b036e03d8d005ee10ac8d3e1c96118f0a68d034186b2fa10239fdf760d766118",
-  "materialChangedAtUtc": "2026-10-13T12:12:06.387Z"
+  "checkedAtUtc": "2026-10-13T12:13:41.777Z",
+  "materialFingerprint": "a70994e9a1731f654858932e0f2713e52f0a9f842e92a2b6ad2af0430ffb5d74",
+  "materialChangedAtUtc": "2026-10-13T12:13:41.777Z"
 }
