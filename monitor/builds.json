@@ -519,7 +519,7 @@
   },
   "executor": {
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-13T01:10:53.710092+00:00",
+    "heartbeatAtUtc": "2026-10-13T01:12:23.838842+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -532,7 +532,19 @@
     "READY deployments or HTML preview smoke tests are not full product releases.",
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
-  "checkedAtUtc": "2026-10-13T01:11:06.337Z",
+  "activity": [
+    {
+      "atUtc": "2026-10-13T00:29:39.257Z",
+      "productId": 2,
+      "message": "#2 Review Request Campaign Kit: local test candidate and protected preview recorded; public release not verified."
+    },
+    {
+      "atUtc": "2026-10-13T00:26:00Z",
+      "productId": null,
+      "message": "President approved the 20-product build backlog."
+    }
+  ],
+  "checkedAtUtc": "2026-10-13T01:12:27.294Z",
   "materialFingerprint": "ced4dfd51e6952516e0d7b20a5c276dfb01a4b3eb5dfb44abb3169cd2ef56ca9",
   "materialChangedAtUtc": "2026-10-13T01:11:06.337Z"
 }
