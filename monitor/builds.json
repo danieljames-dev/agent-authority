@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-02-review-campaign-r2-cross-family-acceptance-grok-20261013",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-13T16:27:49.636944+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-13T16:33:38.705585+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
-    "blockedMissions": 268,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "blockedMissions": 269,
+    "lastMissionOutcome": "blocked",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,16 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-13T16:34:00.440Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
+    {
+      "atUtc": "2026-10-13T16:34:00.440Z",
+      "productId": 2,
+      "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
+    },
     {
       "atUtc": "2026-10-13T16:12:01.026Z",
       "productId": null,
@@ -583,19 +593,9 @@
       "atUtc": "2026-10-13T12:12:06.386Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T06:30:02.384Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-13T06:06:02.114Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-13T16:28:03.329Z",
-  "materialFingerprint": "d4e4d7fd0ced8fd9407eca33dca3d541486fc33f6a240bbe2cad4a1003580d34",
-  "materialChangedAtUtc": "2026-10-13T16:12:01.026Z"
+  "checkedAtUtc": "2026-10-13T16:34:00.440Z",
+  "materialFingerprint": "70f0341d1150877eae03625a69923bd9d2128f6e21ef8fdb90f570c444151ffa",
+  "materialChangedAtUtc": "2026-10-13T16:34:00.440Z"
 }
