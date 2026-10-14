@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-free-tool-runsheet-r2-cross-family-acceptance-grok-20261014",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-14T19:52:40.080150+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-14T19:58:45.856195+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
     "blockedMissions": 273,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "lastMissionOutcome": "done",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-14T19:59:00.465Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
     {
       "atUtc": "2026-10-14T04:12:01.261Z",
       "productId": 3,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-13T16:12:01.026Z",
       "productId": 2,
       "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
-    },
-    {
-      "atUtc": "2026-10-13T13:06:01.873Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
     }
   ],
-  "checkedAtUtc": "2026-10-14T19:53:00.478Z",
-  "materialFingerprint": "5c2b9cf02f9f489093d84e7ab1b2475c88bc7529aac49689193cc8f1c90f205c",
-  "materialChangedAtUtc": "2026-10-14T19:43:00.356Z"
+  "checkedAtUtc": "2026-10-14T19:59:00.465Z",
+  "materialFingerprint": "35a30c56de9547ab9002bcb2f121f2874b08181092ea0b41fe2d3f203642606a",
+  "materialChangedAtUtc": "2026-10-14T19:59:00.465Z"
 }
