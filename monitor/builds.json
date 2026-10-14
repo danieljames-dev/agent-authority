@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-14T23:54:14.950Z",
+  "lastSourceChangeAtUtc": "2026-10-14T23:56:37.768Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -27,7 +27,7 @@
     19,
     20
   ],
-  "selectedProductId": 3,
+  "selectedProductId": 1,
   "selectedMeansWorkerRunning": false,
   "products": [
     {
@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-14T23:54:59.654568+00:00",
+    "heartbeatAtUtc": "2026-10-14T23:56:30.364834+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-14T23:56:59.599Z",
+      "productId": 1,
+      "message": "Product focus moved to #1 Appointment Gap Filler."
+    },
     {
       "atUtc": "2026-10-14T23:55:00.640Z",
       "productId": 3,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-13T16:34:00.440Z",
       "productId": 2,
       "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
-    },
-    {
-      "atUtc": "2026-10-13T16:12:01.026Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-14T23:55:00.640Z",
-  "materialFingerprint": "85ee31000af6792b5954f95ec382e1e199c63ba03b8bb935b36010115d77b41d",
-  "materialChangedAtUtc": "2026-10-14T23:55:00.640Z"
+  "checkedAtUtc": "2026-10-14T23:56:59.599Z",
+  "materialFingerprint": "6e6d555201366f5b4d20ed577296f8096f16844eee7aadb427e4de94751f2cc2",
+  "materialChangedAtUtc": "2026-10-14T23:56:59.599Z"
 }
