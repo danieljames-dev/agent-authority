@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-14T03:43:52.141Z",
+  "lastSourceChangeAtUtc": "2026-10-14T04:11:14.502Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -83,22 +83,22 @@
       "name": "Contractor Change-Order Approval",
       "proposedPrice": "$10 pack; $19/month workflow",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "reviewed",
+      "stageLabel": "Independent QA accepted",
       "gates": {
         "approved": true,
-        "built": true,
-        "tested": false,
-        "independentQa": false,
+        "built": false,
+        "tested": true,
+        "independentQa": true,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 2,
+      "completedGates": 3,
       "totalGates": 6,
       "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "unverified",
+      "qa": "independently_accepted",
       "checkout": "not_configured",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
@@ -535,6 +535,11 @@
   ],
   "activity": [
     {
+      "atUtc": "2026-10-14T04:12:01.261Z",
+      "productId": 3,
+      "message": "#3 Contractor Change-Order Approval: candidate → reviewed; 3/6 verification gates."
+    },
+    {
       "atUtc": "2026-10-14T03:44:00.264Z",
       "productId": 3,
       "message": "#3 Contractor Change-Order Approval: queued → candidate; 2/6 verification gates."
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-13T13:06:01.873Z",
       "productId": null,
       "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-13T13:06:01.873Z",
-      "productId": 2,
-      "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
     }
   ],
-  "checkedAtUtc": "2026-10-14T04:09:00.426Z",
-  "materialFingerprint": "f8b7c5eeef71794cc093ddf2087ed6f5f1f630c2d53989f73819af288cb09290",
-  "materialChangedAtUtc": "2026-10-14T04:09:00.426Z"
+  "checkedAtUtc": "2026-10-14T04:12:01.261Z",
+  "materialFingerprint": "1d5f12836a32b8c5ed7eddf7f30ffc9f149ecfe4ae04a446168b24ffa10223d5",
+  "materialChangedAtUtc": "2026-10-14T04:12:01.261Z"
 }
