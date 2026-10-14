@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-14T00:49:31.544Z",
+  "lastSourceChangeAtUtc": "2026-10-14T00:50:23.059Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -63,13 +63,13 @@
       "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
-        "built": false,
-        "tested": false,
+        "built": true,
+        "tested": true,
         "independentQa": true,
         "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 3,
+      "completedGates": 5,
       "totalGates": 6,
       "web": "public_functional_verified",
       "download": "unverified",
@@ -535,6 +535,11 @@
   ],
   "activity": [
     {
+      "atUtc": "2026-10-14T00:50:29.938Z",
+      "productId": 2,
+      "message": "#2 Review Request Campaign Kit: public → public; 5/6 verification gates."
+    },
+    {
       "atUtc": "2026-10-14T00:49:43.539Z",
       "productId": 3,
       "message": "Product focus moved to #3 Contractor Change-Order Approval."
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-13T12:58:03.145Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T12:58:03.145Z",
-      "productId": 2,
-      "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
     }
   ],
-  "checkedAtUtc": "2026-10-14T00:49:43.539Z",
-  "materialFingerprint": "9f0cc5425e75097b2771ac91af9e45d4cdcd6bf2cfb32d39430aa9c2e28f33c2",
-  "materialChangedAtUtc": "2026-10-14T00:49:43.539Z"
+  "checkedAtUtc": "2026-10-14T00:50:29.938Z",
+  "materialFingerprint": "45620875e3aef7ccfdfea33164a7d54aa2c97676f221465f47ae6c702dfa2bda",
+  "materialChangedAtUtc": "2026-10-14T00:50:29.938Z"
 }
