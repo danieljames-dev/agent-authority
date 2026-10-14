@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-14T23:08:47.918752+00:00",
+    "heartbeatAtUtc": "2026-10-14T23:13:49.317021+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
     }
   ],
-  "checkedAtUtc": "2026-10-14T23:09:00.286Z",
+  "checkedAtUtc": "2026-10-14T23:14:00.980Z",
   "materialFingerprint": "32e2f13e16d7eefb82c2d661db6601a7b63af5474c1b9cfc098ddac0d6a1b384",
   "materialChangedAtUtc": "2026-10-14T22:42:25.610Z"
 }
