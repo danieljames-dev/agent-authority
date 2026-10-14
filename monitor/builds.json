@@ -522,9 +522,9 @@
     "state": "ACTIVE",
     "heartbeatAtUtc": "2026-10-13T16:44:23.944997+00:00",
     "heartbeatHealthy": false,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
-    "blockedMissions": 272,
+    "blockedMissions": 273,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
   },
@@ -595,7 +595,7 @@
       "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
     }
   ],
-  "checkedAtUtc": "2026-10-14T04:06:00.415Z",
-  "materialFingerprint": "fd8c71e94ba2b9426ac7192058d533aa63a397aef9a80d01a0bcae1431276e53",
-  "materialChangedAtUtc": "2026-10-14T03:44:00.264Z"
+  "checkedAtUtc": "2026-10-14T04:09:00.426Z",
+  "materialFingerprint": "f8b7c5eeef71794cc093ddf2087ed6f5f1f630c2d53989f73819af288cb09290",
+  "materialChangedAtUtc": "2026-10-14T04:09:00.426Z"
 }
