@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-13T03:27:26.652Z",
+  "lastSourceChangeAtUtc": "2026-10-14T00:49:31.544Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -27,7 +27,7 @@
     19,
     20
   ],
-  "selectedProductId": 2,
+  "selectedProductId": 3,
   "selectedMeansWorkerRunning": false,
   "products": [
     {
@@ -59,24 +59,24 @@
       "name": "Review Request Campaign Kit",
       "proposedPrice": "$10 once; $19/month tracking",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
-        "built": true,
-        "tested": true,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "built": false,
+        "tested": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
       "completedGates": 3,
       "totalGates": 6,
-      "web": "protected_candidate",
-      "download": "html_export_local_smoke_passed",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "independently_accepted",
       "checkout": "not_configured",
-      "evidence": "Local QR/download smoke passed and a protected Vercel deployment is READY; public functionality and checkout still unverified."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 3,
@@ -513,8 +513,8 @@
   ],
   "counts": {
     "queued": 19,
-    "candidates": 1,
-    "publicFunctionalityVerified": 0,
+    "candidates": 0,
+    "publicFunctionalityVerified": 1,
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
@@ -534,6 +534,16 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-14T00:49:43.539Z",
+      "productId": 3,
+      "message": "Product focus moved to #3 Contractor Change-Order Approval."
+    },
+    {
+      "atUtc": "2026-10-14T00:49:43.539Z",
+      "productId": 2,
+      "message": "#2 Review Request Campaign Kit: candidate → public; 3/6 verification gates."
+    },
     {
       "atUtc": "2026-10-13T16:45:00.806Z",
       "productId": null,
@@ -583,19 +593,9 @@
       "atUtc": "2026-10-13T12:58:03.145Z",
       "productId": 2,
       "message": "Independent cross-family QA started for Review Request Campaign Kit (#2). Product release still gated."
-    },
-    {
-      "atUtc": "2026-10-13T12:52:02.847Z",
-      "productId": null,
-      "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
-    },
-    {
-      "atUtc": "2026-10-13T12:52:02.847Z",
-      "productId": 2,
-      "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
     }
   ],
-  "checkedAtUtc": "2026-10-14T00:45:00.616Z",
-  "materialFingerprint": "656e411a2caec6643fdae2d9ace12240435289a20461d5b4e54843a188cd7fb9",
-  "materialChangedAtUtc": "2026-10-13T22:36:00.875Z"
+  "checkedAtUtc": "2026-10-14T00:49:43.539Z",
+  "materialFingerprint": "9f0cc5425e75097b2771ac91af9e45d4cdcd6bf2cfb32d39430aa9c2e28f33c2",
+  "materialChangedAtUtc": "2026-10-14T00:49:43.539Z"
 }
