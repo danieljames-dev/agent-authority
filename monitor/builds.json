@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-free-tool-runsheet-r2-cross-family-acceptance-grok-20261014",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-14T19:42:39.495562+00:00",
+    "heartbeatAtUtc": "2026-10-14T19:47:39.585067+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to EXECUTED."
     }
   ],
-  "checkedAtUtc": "2026-10-14T19:43:00.356Z",
+  "checkedAtUtc": "2026-10-14T19:48:00.421Z",
   "materialFingerprint": "5c2b9cf02f9f489093d84e7ab1b2475c88bc7529aac49689193cc8f1c90f205c",
   "materialChangedAtUtc": "2026-10-14T19:43:00.356Z"
 }
