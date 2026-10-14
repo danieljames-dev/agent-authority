@@ -4,12 +4,12 @@
   "enabled": true,
   "cadence": "hourly",
   "firstScheduledAt": "2026-10-12T23:15:50Z",
-  "lastRunAt": null,
+  "lastRunAt": "2026-10-14T17:14:16.338Z",
   "lastSuccessfulRunAt": null,
-  "reportedAt": "2026-10-12T23:35:47Z",
-  "runState": "awaiting_first_report",
+  "reportedAt": "2026-10-14T17:14:16.338Z",
+  "runState": "partial_sources_inaccessible",
   "inventory": {
-    "vercelProjectCount": 76,
+    "vercelProjectCount": 79,
     "productCandidateProjects": 28,
     "publicProductCards": 31,
     "lastHttpProbeAt": "2026-10-12T20:40:37Z",
@@ -21,7 +21,16 @@
     "webReachableCount": 31,
     "downloadHtmlVerifiedCount": 5,
     "downloadLocalOpenVerifiedCount": 5,
-    "installerReleaseVerifiedCount": 0
+    "installerReleaseVerifiedCount": 0,
+    "vercelInventoryCheckedAt": "2026-10-14T17:10:52Z",
+    "catalogHtmlRetrievedAt": "2026-10-14T17:12:17.432799Z",
+    "catalogHtmlUrl": "https://products-iota-one.vercel.app/",
+    "currentIndividualHttp200Count": null,
+    "currentIndividualNon200Count": null,
+    "currentWebFunctionalAcceptedCount": null,
+    "currentOfflineFunctionalAcceptedCount": null,
+    "currentInstallableAcceptedCount": null,
+    "historicalEvidenceOnlyNote": "Vercel READY is not public anonymous access or functional browser acceptance; historic HTTP and local open results are retained without being represented as current tests."
   },
   "products": [
     {
@@ -53,6 +62,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/odoo-import-doctor/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -86,6 +117,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/free-planning-tools/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -117,6 +170,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/agency-reseller-margin-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -150,6 +225,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://late-payment-cost-calculator.vercel.app/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -181,6 +278,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://missed-call-cost-calculator-ivory.vercel.app/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -214,6 +333,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/subscription-waste-audit/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -245,6 +386,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/scope-creep-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -278,6 +441,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/team-capacity-planner/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -309,6 +494,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/customer-churn-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -342,6 +549,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/project-deposit-coverage-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -373,6 +602,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/rework-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -406,6 +657,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/client-concentration-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -437,6 +710,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/meeting-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -470,6 +765,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/vendor-price-increase-impact-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -501,6 +818,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/payment-fee-impact-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -534,6 +873,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/inventory-stockout-opportunity-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -565,6 +926,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/training-time-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -598,6 +981,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/equipment-downtime-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -629,6 +1034,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/overtime-cost-impact-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -662,6 +1089,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/returns-processing-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -693,6 +1142,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/warranty-claim-cost-calculator/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -726,6 +1197,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://website-chat-bot-standard.vercel.app/en/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -757,6 +1250,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://quote-margin-board.vercel.app/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -790,6 +1305,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://supply-cost-reorder-board.vercel.app/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -821,6 +1358,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://speed-to-lead-audit.vercel.app/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -854,6 +1413,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://contract-commitment-extractor.vercel.app/",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -885,6 +1466,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/metastrip/MetaStrip.html",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -918,6 +1521,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/batchmate/BatchMate.html",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -949,6 +1574,28 @@
           "url": null,
           "platforms": [],
           "checkedAt": null
+        }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/sheettidy/SheetTidy.html",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
         }
       }
     },
@@ -982,6 +1629,28 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/iconforge/IconForge.html",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     },
     {
@@ -1014,20 +1683,116 @@
           "platforms": [],
           "checkedAt": null
         }
+      },
+      "currentAudit": {
+        "auditedAt": "2026-10-14T17:14:16.338Z",
+        "web": {
+          "url": "https://products-iota-one.vercel.app/renamekit/RenameKit.html",
+          "httpStatus": "UNKNOWN_not_probed_this_run",
+          "browserFunctionalAcceptance": "NOT_TESTED"
+        },
+        "download": {
+          "retrieval": "UNKNOWN_not_probed_this_run",
+          "offlineFunctionalAcceptance": "NOT_TESTED"
+        },
+        "install": {
+          "verifiedPackage": "UNKNOWN_not_tested",
+          "appStoreAvailability": "UNKNOWN_not_tested"
+        },
+        "commercial": {
+          "price": "UNKNOWN_not_verified",
+          "checkout": "UNKNOWN_not_tested",
+          "buyerFulfillment": "UNKNOWN_not_verified",
+          "organicSettlements": "UNKNOWN_not_verified"
+        }
       }
     }
   ],
-  "recentRuns": [],
+  "recentRuns": [
+    {
+      "at": "2026-10-14T17:14:16.338Z",
+      "result": "PARTIAL",
+      "checked": {
+        "authenticatedVercelProjectCount": 79,
+        "catalogHtmlRetrieved": true,
+        "catalogCards": 31,
+        "downloadLinks": 5,
+        "individualUrlHttp": "UNKNOWN",
+        "browserFunctionalAcceptance": "NOT_TESTED",
+        "offlineFunctionality": "NOT_TESTED",
+        "nativeInstallableAvailability": "UNKNOWN",
+        "sku2": {
+          "productionState": "READY",
+          "anonymousHttp": "UNKNOWN"
+        },
+        "sku3": {
+          "vercelProjectLookup": "404",
+          "publicHttp": "UNKNOWN"
+        }
+      },
+      "qa": "Historic evidence retained; current exact QA receipt not yet retrieved",
+      "sourceFailures": [
+        "Public anonymous HTTP checks could not complete from audit environment",
+        "AION Windows canonical file reads pending or failed"
+      ],
+      "safety": "Read-only; no deploy, DNS, auth change, spend, or rival workers",
+      "note": "Vercel READY is not public anonymous access or functional browser acceptance; historic HTTP and local open results are retained without being represented as current tests."
+    }
+  ],
   "blockers": [
     "Unverified public DNS for catalog.aiserviceco.com and cleaner.aiserviceco.com",
     "Free Data Cleaner Unicode field-key data-loss bug requires repair and independent QA",
-    "Stripe payment and settled revenue not independently reconciled"
+    "Stripe payment and settled revenue not independently reconciled",
+    "Current external anonymous product URL HTTP status and browser functional acceptance remain UNKNOWN because probes were unavailable.",
+    "Vercel 'products' project has catalog SSO protection enabled for all_except_custom_domains; direct remote HTML returned, but independent anonymous browser reachability not established."
   ],
-  "nextAction": "On each hourly audit, refresh separate Web, Download, Install evidence and verify real functionality before promoting a release.",
+  "nextAction": "Retest individual catalog URLs and exact cross-family QA receipts as sources return; close any genuine anonymous-reachability defects without bypassing Atlas/release authorization. Preserve historical evidence; verify external buyer settlement independently.",
   "distributionEvidence": {
     "verifiedAt": "2026-10-12T23:53:59.730Z",
     "method": "Chrome Playwright: download links saved five HTML files and opened each from file:// with upload controls and no page JavaScript errors; this is NOT end-to-end offline processing QA.",
     "webEvidence": "Historical 31/31 HTTP 200 HEAD check at 2026-10-12T20:40:37Z; HTTP reachability is NOT functionality.",
     "installEvidence": "No installable apps or packages have been verified; unknown is not proof of absence."
+  },
+  "releaseAudit": {
+    "sku2": {
+      "name": "Review Request Campaign Kit",
+      "url": "https://aion-review-request-campaign-kit.vercel.app/",
+      "vercelProjectExists": true,
+      "productionDeployment": "READY",
+      "vercelAuthenticationEnabled": false,
+      "publicAnonymousHttp": "UNKNOWN_not_probed",
+      "browserFunctionalAcceptance": "NOT_TESTED_this_run",
+      "independentQaReceipt": "UNKNOWN_source_receipt_not_retrieved_this_run",
+      "paidCheckout": "UNKNOWN_not_tested",
+      "catalogListed": false,
+      "reference": "Previous independent QA and public browser acceptance reports are historical, not retested"
+    },
+    "sku3": {
+      "name": "Contractor Change-Order Approval",
+      "url": "https://aion-contractor-change-order.vercel.app/",
+      "authenticatedVercelProjectLookup": "404_project_not_found",
+      "publicAnonymousHttp": "UNKNOWN_not_probed",
+      "productionBrowserAcceptance": "NOT_TESTED",
+      "independentQaReceipt": "UNKNOWN_not_retrieved_this_run",
+      "releaseStatus": "HOLD"
+    },
+    "approved20SkuBacklog": {
+      "source": "D:\\AION-DURABLE\\ops\\aion-president-approved-products-20261012.json",
+      "sourceRead": "UNKNOWN_read_pending",
+      "publicReleasePromotion": "NONE_without_public_qa"
+    }
+  },
+  "catalogProtectionObservation": {
+    "project": "products",
+    "domain": "products-iota-one.vercel.app",
+    "authEnabled": true,
+    "protectionScope": "all_except_custom_domains",
+    "directRemoteRead": {
+      "htmlRetrieved": true,
+      "at": "2026-10-14T17:12:17.432799Z",
+      "htmlCards": 31,
+      "downloadLinkCount": 5
+    },
+    "impact": "Potential anonymous-access ambiguity; direct remote HTML read succeeded, external unauthenticated HTTP codes and browser acceptance not checked. Do not change security settings based on this alone."
   }
 }
