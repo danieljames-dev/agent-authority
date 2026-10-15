@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T18:01:31.994414+00:00",
+    "missionId": "svp-x402-gateway-r2-3-cross-family-acceptance-grok-20261015",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-15T18:02:32.053456+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
-    "waitingMissions": 1,
+    "activeMissions": 1,
+    "waitingMissions": 0,
     "blockedMissions": 275,
-    "lastMissionOutcome": "retry",
-    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T18:03:06.900Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-15T18:02:00.464Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T16:26:59.765Z",
       "productId": 5,
       "message": "#5 Referral Campaign Tracker: candidate → public; 4/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T16:26:59.765Z",
-      "productId": 4,
-      "message": "#4 Smart Customer Intake Form: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T18:02:00.464Z",
-  "materialFingerprint": "b92042cd13a5ad1a995e3095680caea5d383a1ba783e5be55220b4e8c372ef50",
-  "materialChangedAtUtc": "2026-10-15T18:02:00.464Z"
+  "checkedAtUtc": "2026-10-15T18:03:06.900Z",
+  "materialFingerprint": "c42a9f3aa9eed8dc2be846f919fd1c7176d85c7f91479e464763e468cf62968b",
+  "materialChangedAtUtc": "2026-10-15T18:03:06.900Z"
 }
