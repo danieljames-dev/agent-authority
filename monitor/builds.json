@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-approved-01-appointment-gap-filler-grok-r2-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T01:06:40.498811+00:00",
+    "heartbeatAtUtc": "2026-10-15T01:11:40.670166+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#3 Contractor Change-Order Approval: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T01:07:00.268Z",
+  "checkedAtUtc": "2026-10-15T01:12:13.707Z",
   "materialFingerprint": "2a37755c28ab387024a482aff40e18f546713d14315b0ad2bc1c3303e2f40686",
   "materialChangedAtUtc": "2026-10-15T00:51:00.182Z"
 }
