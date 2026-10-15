@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-14T23:56:37.768Z",
+  "lastSourceChangeAtUtc": "2026-10-15T00:49:10.859Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -131,72 +131,72 @@
       "name": "Referral Campaign Tracker",
       "proposedPrice": "$10 kit; $19/month tracking",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "candidate",
+      "stageLabel": "Candidate built, release gated",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
         "independentQa": false,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 2,
       "totalGates": 6,
-      "web": "not_built",
+      "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "unverified",
       "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 6,
       "name": "Repeat-Booking Reminder Kit",
       "proposedPrice": "$10 once; $19/month automated",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "candidate",
+      "stageLabel": "Candidate built, release gated",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
         "independentQa": false,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 2,
       "totalGates": 6,
-      "web": "not_built",
+      "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "unverified",
       "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 7,
       "name": "Job Completion Evidence Pack",
       "proposedPrice": "$10 pack; $19/month archive",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "candidate",
+      "stageLabel": "Candidate built, release gated",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
         "independentQa": false,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 2,
       "totalGates": 6,
-      "web": "not_built",
+      "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "unverified",
       "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 8,
@@ -227,24 +227,24 @@
       "name": "Deposit & Milestone Tracker",
       "proposedPrice": "$10 once; $19/month hosted",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "candidate",
+      "stageLabel": "Candidate built, release gated",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
         "independentQa": false,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 2,
       "totalGates": 6,
-      "web": "not_built",
+      "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "unverified",
       "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 10,
@@ -299,48 +299,48 @@
       "name": "Service Menu & Rate Card Builder",
       "proposedPrice": "$10 once",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "candidate",
+      "stageLabel": "Candidate built, release gated",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
         "independentQa": false,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 2,
       "totalGates": 6,
-      "web": "not_built",
+      "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "unverified",
       "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 13,
       "name": "SOP-to-Checklist Builder",
       "proposedPrice": "$10 once; $19/month teams",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "candidate",
+      "stageLabel": "Candidate built, release gated",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
         "independentQa": false,
         "publicFunctionality": false,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 2,
       "totalGates": 6,
-      "web": "not_built",
+      "web": "unverified",
       "download": "not_built",
       "install": "not_built",
-      "qa": "pending",
+      "qa": "unverified",
       "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 14,
@@ -512,15 +512,15 @@
     }
   ],
   "counts": {
-    "queued": 18,
-    "candidates": 0,
+    "queued": 12,
+    "candidates": 6,
     "publicFunctionalityVerified": 2,
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T00:43:36.562468+00:00",
+    "heartbeatAtUtc": "2026-10-15T00:49:37.067689+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -534,6 +534,36 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T00:50:00.496Z",
+      "productId": 13,
+      "message": "#13 SOP-to-Checklist Builder: queued → candidate; 2/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T00:50:00.496Z",
+      "productId": 12,
+      "message": "#12 Service Menu & Rate Card Builder: queued → candidate; 2/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T00:50:00.496Z",
+      "productId": 9,
+      "message": "#9 Deposit & Milestone Tracker: queued → candidate; 2/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T00:50:00.496Z",
+      "productId": 7,
+      "message": "#7 Job Completion Evidence Pack: queued → candidate; 2/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T00:50:00.496Z",
+      "productId": 6,
+      "message": "#6 Repeat-Booking Reminder Kit: queued → candidate; 2/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T00:50:00.496Z",
+      "productId": 5,
+      "message": "#5 Referral Campaign Tracker: queued → candidate; 2/6 verification gates."
+    },
     {
       "atUtc": "2026-10-14T23:56:59.599Z",
       "productId": 1,
@@ -563,39 +593,9 @@
       "atUtc": "2026-10-14T00:50:29.938Z",
       "productId": 2,
       "message": "#2 Review Request Campaign Kit: public → public; 5/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-14T00:49:43.539Z",
-      "productId": 3,
-      "message": "Product focus moved to #3 Contractor Change-Order Approval."
-    },
-    {
-      "atUtc": "2026-10-14T00:49:43.539Z",
-      "productId": 2,
-      "message": "#2 Review Request Campaign Kit: candidate → public; 3/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-13T16:45:00.806Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-13T16:44:01.026Z",
-      "productId": null,
-      "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
-    },
-    {
-      "atUtc": "2026-10-13T16:34:00.440Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-13T16:34:00.440Z",
-      "productId": 2,
-      "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
     }
   ],
-  "checkedAtUtc": "2026-10-15T00:44:00.315Z",
-  "materialFingerprint": "6e6d555201366f5b4d20ed577296f8096f16844eee7aadb427e4de94751f2cc2",
-  "materialChangedAtUtc": "2026-10-14T23:56:59.599Z"
+  "checkedAtUtc": "2026-10-15T00:50:00.496Z",
+  "materialFingerprint": "f21a033c067b0956cdeb1339eeb7c23465afd5d2c0eb70fb438dfac7af217050",
+  "materialChangedAtUtc": "2026-10-15T00:50:00.496Z"
 }
