@@ -518,12 +518,12 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-04-smart-customer-intake-form-repair-r3-grok-20261015",
+    "missionId": "svp-x402-gateway-r2-3b-cross-family-acceptance-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T19:43:38.696434+00:00",
+    "heartbeatAtUtc": "2026-10-15T19:47:54.718765+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 1,
+    "waitingMissions": 0,
     "blockedMissions": 276,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "#7 Job Completion Evidence Pack: candidate → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T19:44:00.285Z",
-  "materialFingerprint": "75c460cc11f73ee2f66d59c392c9d6af63d148422be561358dc510015457d912",
-  "materialChangedAtUtc": "2026-10-15T19:44:00.285Z"
+  "checkedAtUtc": "2026-10-15T19:48:00.672Z",
+  "materialFingerprint": "8f8ba391bbdd5b7e389f40070fd54e30c70b165fc0240dd7d8fac7a82c782fa1",
+  "materialChangedAtUtc": "2026-10-15T19:48:00.672Z"
 }
