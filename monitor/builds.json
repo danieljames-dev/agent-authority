@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T02:24:57.036132+00:00",
+    "missionId": "svp-site-front-door-r3-1-cross-family-acceptance-grok-20261015",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-15T02:30:55.404815+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 273,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "BLOCKED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T02:31:00.149Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-15T02:25:00.794Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-14T23:56:59.599Z",
       "productId": 1,
       "message": "Product focus moved to #1 Appointment Gap Filler."
-    },
-    {
-      "atUtc": "2026-10-14T23:55:00.640Z",
-      "productId": 3,
-      "message": "#3 Contractor Change-Order Approval: reviewed → public; 5/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T02:25:00.794Z",
-  "materialFingerprint": "7f94ea4f2a5f2144e1977433794a7d5838eab6c796fa00810e59018bacf96ecf",
-  "materialChangedAtUtc": "2026-10-15T02:25:00.794Z"
+  "checkedAtUtc": "2026-10-15T02:31:00.149Z",
+  "materialFingerprint": "6f6ef5616a753e270577b49c386f5536a4842553d81bcd383f511ded49fdb943",
+  "materialChangedAtUtc": "2026-10-15T02:31:00.149Z"
 }
