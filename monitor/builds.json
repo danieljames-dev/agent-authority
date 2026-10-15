@@ -518,9 +518,9 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-08-customer-onboarding-portal-grok-r1-20261015",
+    "missionId": "svp-approved-04-smart-customer-intake-form-repair-r2-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T16:37:45.517211+00:00",
+    "heartbeatAtUtc": "2026-10-15T16:41:45.790234+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 1,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-15T16:38:07.544Z",
-  "materialFingerprint": "8df175642c78e2f1d7b14c9698d7354d42a176633caf7376805bf1b3f8f549c8",
-  "materialChangedAtUtc": "2026-10-15T16:26:59.765Z"
+  "checkedAtUtc": "2026-10-15T16:41:59.900Z",
+  "materialFingerprint": "0774d9a526bcd9646d93b8fc029a7fb88d34408fca64e98900aa6e7a7ca0a057",
+  "materialChangedAtUtc": "2026-10-15T16:41:59.900Z"
 }
