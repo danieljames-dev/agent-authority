@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-approved-01-appointment-gap-filler-repair-r2-grok-v2-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T02:36:54.967122+00:00",
+    "heartbeatAtUtc": "2026-10-15T02:42:55.896884+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#6 Repeat-Booking Reminder Kit: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T02:37:00.236Z",
+  "checkedAtUtc": "2026-10-15T02:43:00.310Z",
   "materialFingerprint": "87e8150709ad05cd2bccf1f92daa49154ca049e7b0beec6f520ea8aea16d841b",
   "materialChangedAtUtc": "2026-10-15T02:37:00.236Z"
 }
