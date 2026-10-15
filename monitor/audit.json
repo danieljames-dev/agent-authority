@@ -4,13 +4,13 @@
   "enabled": true,
   "cadence": "hourly",
   "firstScheduledAt": "2026-10-12T23:15:50Z",
-  "lastRunAt": "2026-10-15T14:16:41.093Z",
+  "lastRunAt": "2026-10-15T17:27:08.682Z",
   "lastSuccessfulRunAt": null,
-  "reportedAt": "2026-10-15T14:16:41.093Z",
-  "runState": "PARTIAL_82_VERCEL_PROJECTS_31_OF_31_AUTHORIZED_HTML_RETRIEVAL_HISTORICAL_QA_ATLAS_EXECUTOR_STALE_NO_CURRENT_PUBLIC_BROWSER_ACCEPTANCE",
+  "reportedAt": "2026-10-15T17:27:08.682Z",
+  "runState": "PARTIAL_88_AUTHENTICATED_VERCEL_9_OF_9_ANONYMOUS_FREE_SKU_GET200_6_NEW_FREE_R2_PRODUCTION_BROWSER_10PASS_EACH_31_HUB_ENTRIES_NOT_INDIVIDUALLY_REPROBED",
   "inventory": {
-    "vercelProjectCount": 82,
-    "productCandidateProjects": 28,
+    "vercelProjectCount": 88,
+    "productCandidateProjects": null,
     "publicProductCards": 31,
     "lastHttpProbeAt": "2026-10-12T20:40:37Z",
     "http200Count": 31,
@@ -22,7 +22,7 @@
     "downloadHtmlVerifiedCount": 5,
     "downloadLocalOpenVerifiedCount": 5,
     "installerReleaseVerifiedCount": 0,
-    "vercelInventoryCheckedAt": "2026-10-15T14:16:41.093Z",
+    "vercelInventoryCheckedAt": "2026-10-15T17:27:08.682Z",
     "catalogHtmlRetrievedAt": "2026-10-15T14:16:41.093Z",
     "catalogHtmlUrl": "https://products-iota-one.vercel.app/",
     "currentIndividualHttp200Count": null,
@@ -30,17 +30,23 @@
     "currentWebFunctionalAcceptedCount": null,
     "currentOfflineFunctionalAcceptedCount": null,
     "currentInstallableAcceptedCount": null,
-    "historicalEvidenceOnlyNote": "2026-10-15 current authorized owner-computer URL reads: all 31 known catalog destinations, including five downloadable single-file HTML tools, each returned recognizable HTML. Numeric HTTP status not exposed by this URL reader; independent web retrieval failed. No current credential-free browser functional acceptance or offline processing tests. Vercel project inventory 82. Oct 12 31/31 HTTP 200 and 5 local-open receipts are historical only. Atlas controller lease PRIMARY; executor last heartbeat 2026-10-15T08:33:13Z, PID 9276 absent in current process listing, operating state UNKNOWN.",
-    "currentIndividualHtmlRetrievedCount": 31,
-    "currentIndividualHtmlErrorCount": 0,
+    "historicalEvidenceOnlyNote": "Existing catalog 31/31 historical HTTP 200 Oct 12, five offline HTML local-open only Oct 12, most recent all-31 HTML retrieval documented previous 2026-10-15T16:22Z; no fresh all-31 individual numeric codes or functional acceptance this run. Separately 9 approved free SKUs have 9/9 anonymous HTTP 200 source receipt at 16:54Z, six new SKUs independent cross-family QA PASS and production browser 10/10 each at 15:52-15:58Z; these are NOT additional accepted entries in old 31-card Products Hub.",
+    "currentIndividualHtmlRetrievedCount": null,
+    "currentIndividualHtmlErrorCount": null,
     "currentIndividualHtmlReadAt": "2026-10-15T14:16:41.093Z",
     "productCandidateProjectsRecountedThisRun": false,
-    "productCandidateProjectsEvidenceState": "STALE_prior_28_not_recounted",
+    "productCandidateProjectsEvidenceState": "STALE_prior_28_replaced_with_UNKNOWN; 88 total projects are authoritative, candidate subset not independently recounted",
     "historicalHttp200EvidenceAt": "2026-10-12T20:40:37Z",
     "latestObservedCatalogUniqueTargets": 31,
     "currentAnonymousBrowserAcceptedCount": null,
     "currentHistoricalHttp200EvidenceAt": "2026-10-12T20:40:37Z",
-    "currentIndividualFunctionalAcceptanceState": "NOT_TESTED_this_run"
+    "currentIndividualFunctionalAcceptanceState": "NOT_TESTED_ALL_31_this_run; last complete individual HTML observation at 2026-10-15T16:22:37Z prior audit",
+    "currentApprovedFreeSkuHttp200Count": 9,
+    "currentApprovedFreeSkuHttpProbeAt": "2026-10-15T16:54:12.798Z",
+    "approvedFreeSkuReleaseCountFromAuthoritativeBacklog": 9,
+    "sixNewSkuProductionBrowserQaPassCount": 60,
+    "sixNewSkuProductionBrowserQaFailCount": 0,
+    "sixNewSkuBrowserAcceptanceFromReceiptsAt": "2026-10-15T15:52:40Z_to_2026-10-15T15:57:58Z"
   },
   "products": [
     {
@@ -1956,20 +1962,50 @@
       },
       "safety": "No controller/worker creation, public promotion, DNS/security/payment/account changes, or spend.",
       "commercial": "No new independent payment checks. Price, checkout, fulfillment, organic settled revenue UNKNOWN unless historical proof specifically sourced."
+    },
+    {
+      "at": "2026-10-15T17:27:08.682Z",
+      "result": "PARTIAL_88_AUTHENTICATED_VERCEL_9_OF_9_ANONYMOUS_FREE_SKU_GET200_6_NEW_FREE_R2_PRODUCTION_BROWSER_10PASS_EACH_31_HUB_ENTRIES_NOT_INDIVIDUALLY_REPROBED",
+      "checked": {
+        "authenticatedVercelProjects": 88,
+        "oldCatalogEntries": 31,
+        "oldCatalogCurrentEachRetested": false,
+        "oldCatalogPreviouslyHtml31": "2026-10-15T16:22Z previous audit",
+        "nineApprovedFreeSkuAnonymousGet": {
+          "pass": 9,
+          "fail": 0,
+          "at": "2026-10-15T16:54:12.798Z"
+        },
+        "sixNewFreeR2CrossFamilyQa": "SIX_PASS_0_HIGH_0_MEDIUM_each_exact_QA_source_inspected",
+        "sixNewFreeProductionBrowser": "SIX_SEPARATE_10_PASS_0_FAIL_receipts_read_exact",
+        "sixNewFreePagesInOldCatalog": false,
+        "downloadStandaloneOffline": "UNKNOWN",
+        "installable": "UNKNOWN",
+        "executor": "PID_19860_OBSERVED; 16:54_watchdog_one_instance; current_heartbeat_UNKNOWN",
+        "sku2": "Grok4.6_r3_frozen_QA_50_0_QR_10_0; historical public browser 14_0",
+        "settledNewRevenue": "UNKNOWN"
+      },
+      "sourceFailures": [
+        "Auditor external web tool could not access sample Vercel URLs; owner-machine source GET receipts used",
+        "Current all-31 catalog numeric status not retested"
+      ],
+      "safety": "Read only on owner-machine and authenticated Vercel; no competing worker, no production deploy, DNS/security, account, payment or spending changes.",
+      "commercial": "Nine free editions public by accepted-release evidence; no new verified settled organic income; paid tiers not configured."
     }
   ],
   "blockers": [
-    "All 31 owner-computer URL HTML retrievals successful this run; numeric current HTTP codes UNKNOWN because URL reader omits response statuses. Oct 12 numeric 31/31 HTTP-200 evidence is historical.",
-    "External independent web retrieval of hub/SKU1/SKU2/SKU3/Event Run Sheet/custom catalog inaccessible to web tool, so fresh off-device anonymous browser functional acceptance UNKNOWN.",
-    "Vercel SSO ON for Products Hub, SKU1, SKU3, and Event Run Sheet; SKU2 SSO OFF. Authenticated-device HTML retrieval cannot resolve anonymous customer access.",
-    "SKU1 authoritative backlog STILL APPROVED_QUEUED/NOT_BUILT despite project and frozen independent QA. Its 9/0 browser tests were localhost-only, not production.",
-    "Five downloadable HTML tools retrieved, but complete offline processing, desktop/mobile installer tests, and app-store acceptance UNKNOWN; Oct 12 local-opening evidence only.",
-    "Free Data Cleaner Unicode defect closure UNKNOWN; do not promote or distribute until exact fix/reviewer receipt.",
-    "catalog.aiserviceco.com failed DNS resolution on owner computer (ENOTFOUND).",
-    "Atlas executor status heartbeat last 2026-10-15T08:33:13.808069Z; PID 9276 absent in fresh process list. Atlas PRIMARY lease remains but executor state UNKNOWN. Do not start competing worker.",
-    "No live payment/fulfillment/organic settlement audit in this pass: UNKNOWN, not zero."
+    "Existing 31-item catalog: numeric HTTP and browser-functional acceptance NOT rerun for every destination this audit; Oct 12 31/31 HTTP 200 and five local-open HTML receipts historical only.",
+    "Six newly released R2 free tools have exact independent cross-family QA PASS and production-browser 10/10 release receipts, plus anonymous GET 200 as of 16:54Z, but they are NOT present in old 31-item products hub; discoverability/distribution remains a separate gate.",
+    "Six new projects show Vercel SSO enabled configuration despite raw anonymous GET200; do not treat config as proof all customer access works. Cross-network independent retrieval inaccessible in auditor web tool.",
+    "SKU1 old 9/0 localhost-vs-production functional acceptance provenance remains unresolved in raw receipt checked in earlier audit; new 16:54Z anonymous GET200 and digest established only reachability.",
+    "SKU2 exact QA r3 independent family PASS and public browser 14/0 from raw post-deployment 2026-10-14T00:47Z; 40-char Git commit acceptance not established in exact SKU2 QA receipt.",
+    "Free Data Cleaner Unicode defect closure UNKNOWN; no promotion or new distribution on assumption of fix.",
+    "Five historical standalone HTML tools have local-open only, full offline processing UNKNOWN. Desktop/mobile installer and app-store availability UNKNOWN.",
+    "No independent checkout/paid buyer-fulfillment/new organic settlement read during this run; UNKNOWN is not zero.",
+    "Single Atlas controller lease PRIMARY; observed one executor PID 19860 in process list and 16:54Z watchdog-canary one instance, but no independent current heartbeat read in this pass.",
+    "Custom catalog domain DNS and any site consolidation r3.3 publication not independently reverified this run; UNKNOWN."
   ],
-  "nextAction": "Atlas sole controller: reconcile stale executor heartbeat/process and SKU1 backlog mismatch. Then independently test credential-free public browser behavior under release/SSO QA gates. Do not promote protected candidates, bypass protections, deploy, or spend.",
+  "nextAction": "Atlas PRIMARY: use accepted FREE 9 SKU release ledger/receipts to reconcile old 31-item hub and owner-domain distribution under exact written release gates; avoid unauthorized catalog deploy/promote. Repeat credential-free browser QA and distribution reachability from independent network. Resume separate repair for SKU4, do not delay revenue. Keep one executor; no new spend.",
   "distributionEvidence": {
     "verifiedAt": "2026-10-12T23:53:59.730Z",
     "method": "Chrome Playwright: download links saved five HTML files and opened each from file:// with upload controls and no page JavaScript errors; this is NOT end-to-end offline processing QA.",
@@ -1980,7 +2016,14 @@
     "latestLocalOfflineFunctionalAcceptance": "UNKNOWN_not_tested",
     "latestBrowserAcceptance": "UNKNOWN_not_tested",
     "latestCatalogHtmlObservedAt": "2026-10-15T06:14:35.247Z",
-    "latestCatalogLinkObservation": "36 anchors, 31 unique destinations; 26 other tools and five HTML download targets each linked twice. This is catalog presence, not buyer discovery."
+    "latestCatalogLinkObservation": "36 anchors, 31 unique destinations; 26 other tools and five HTML download targets each linked twice. This is catalog presence, not buyer discovery.",
+    "approvedFreeSkuGetAt": "2026-10-15T16:54:12.798Z",
+    "approvedFreeSkuGetPassCount": 9,
+    "approvedFreeSkuGetFailCount": 0,
+    "newFreeSkuProductionBrowserPassedReceipts": 6,
+    "existingCatalogCurrentAll31Retest": "NOT_COMPLETED_this_run",
+    "existingFiveStandaloneHtmlOfflineFunctional": "UNKNOWN_not_tested",
+    "currentInstallableEvidence": "UNKNOWN_not_tested"
   },
   "releaseAudit": {
     "sku2": {
@@ -1989,15 +2032,15 @@
       "vercelProjectExists": true,
       "productionDeployment": "READY_authenticated_Vercel",
       "vercelAuthenticationEnabled": false,
-      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
+      "currentHtmlRetrieval": "HTML_RETRIEVED_owner_machine_during_this_audit",
       "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "publicAnonymousHttp": "HISTORICAL_HTTP_200_2026-10-13_NOT_RETESTED",
-      "browserFunctionalAcceptance": "HISTORICAL_SOURCE_POST_LAUNCH_2026-10-13T23:20Z_PUBLIC_URL_BROWSER_14_PASS_0_FAIL_NOT_RETESTED_THIS_RUN",
-      "independentQaReceipt": "EXACT_SOURCE_QA_RESULT_READ_2026-10-15_Grok_4.6_different_family_frozen_R3_PASS_50_checks_pass_0_fail_10_QR_length_pass_0_fail; 2026-10-13T22:33:30Z",
+      "browserFunctionalAcceptance": "HISTORICAL_PUBLIC_BROWSER_14_PASS_0_FAIL_at_2026-10-14T00:47Z_verified_against_DEPLOY_CREATED_at_00:45Z; NOT_RETESTED_this_audit",
+      "independentQaReceipt": "EXACT_SOURCE_GROK_4.6_r3_QA_PASS_50_0_QR_10_0_READ_THIS_AUDIT; frozen_sha256 ca6329748768e3c6245f8cd2943046b19f989969c8279dd02c7881054484ece8; exact Git40 acceptance unresolved in reviewed receipt",
       "paidCheckout": "NOT_CONFIGURED_in_authoritative_backlog",
       "catalogListed": false,
-      "lastCheckedAt": "2026-10-15T14:16:41.093Z",
-      "currentAnonymousHttp": "UNKNOWN_current_run_historical_200_retained"
+      "lastCheckedAt": "2026-10-15T17:27:08.682Z",
+      "currentAnonymousHttp": "GET_200_NO_REDIRECT_and_frozen_source_SHA256_match_2026-10-15T16:54Z"
     },
     "sku3": {
       "name": "Contractor Change-Order Approval",
@@ -2009,7 +2052,7 @@
       "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
       "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "publicAnonymousHttp": "HISTORICAL_UNCREDENTIALED_HTTP_200_2026-10-15T00:05:04Z_NOT_RETESTED",
-      "productionBrowserAcceptance": "HISTORICAL_11_PASS_0_FAIL_NOT_RETESTED",
+      "productionBrowserAcceptance": "HISTORICAL_PUBLIC_BROWSER_11_PASS_0_FAIL_NOT_RETESTED_this_audit",
       "independentQaReceipt": "PASS_Grok_4.7_frozen_R3_exact_QA_RESULT_READ_2026-10-15",
       "independentQaCommit": "6f2d0b933ea4bb7b1820c28c37bdd230c5085027",
       "independentQaSourceSha256": "1b466d701649a14996f19b8e32558d37fa4c96057ca47ec3d9b5106c77f80178",
@@ -2023,15 +2066,29 @@
       "rollbackVerification": "UNKNOWN_not_retested_or_receipted_this_run",
       "paidCheckout": "NOT_CONFIGURED_in_authoritative_backlog",
       "catalogListed": false,
-      "lastCheckedAt": "2026-10-15T14:16:41.093Z"
+      "lastCheckedAt": "2026-10-15T17:27:08.682Z",
+      "currentAnonymousHttp": "GET_200_NO_REDIRECT_and_frozen_source_SHA256_match_2026-10-15T16:54Z"
     },
     "approved20SkuBacklog": {
-      "source": "Authoritative Windows product backlog read this run; internal paths excluded",
-      "sourceRead": "YES_2026-10-15_current_20_approved; SKU2_AND_SKU3_ledger_public_FREE_SKU1_queued_STALE",
-      "publicReleasePromotion": "SKU2_and_SKU3_recorded_as_free_public_releases_with_historical_production_browser_acceptance; no fresh anonymous browser QA",
-      "sku1Conflict": "BACKLOG_APPROVED_QUEUED_NOT_BUILT_BUT_HOSTED_HTML_EXISTS_AND_HISTORICAL_QA_PASS; NO_PRODUCTION_QA_PROMOTION",
-      "additionalCandidates": "SKU5_6_7_9_12_13_builder_candidates_review_pending_not_public",
-      "paidTiers": "NOT_ON_SALE_or_not_configured"
+      "source": "Owner-machine authoritative 20-SKU backlog, direct read 2026-10-15 during this audit (private path withheld)",
+      "sourceRead": "YES",
+      "approvedCount": 20,
+      "freePublicReleasedSkuIds": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        12,
+        13
+      ],
+      "freeReleaseClaimScope": "Backlog says FREE_PUBLIC_RELEASED; six R2 QA + production-browser receipts independently inspected; other releases preserve their own scoped evidence",
+      "sku4": "BUILT_UNDER_REVIEW; Grok R2 repair ACTIVE, not public",
+      "sku8": "APPROVED_QUEUED; builder provider guard timeout, not released",
+      "paidTiers": "NOT_CONFIGURED_NOT_ON_SALE",
+      "catalogMembership": "Old 31-item hub NOT automatically expanded; no catalog publication performed by audit"
     },
     "sku1": {
       "name": "Appointment Gap Filler",
@@ -2040,10 +2097,10 @@
       "productionDeployment": "READY",
       "vercelAuthenticationEnabled": true,
       "protectionScope": "all_except_custom_domains",
-      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
+      "currentHtmlRetrieval": "HTML_RETRIEVED_public_root_on_owner_machine",
       "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "currentAnonymousAccess": "UNKNOWN_Vercel_SSO_enabled",
-      "currentBrowserAcceptance": "NOT_TESTED_public_production_this_run; historical_9_pass_0_fail_localhost_only",
+      "currentBrowserAcceptance": "HISTORICAL_9_PASS_0_FAIL_receipt_production_vs_localhost_provenance_UNRESOLVED_this_audit; direct 2026-10-15T16:54Z anonymous GET and source hash match confirmed",
       "historicalIndependentQa": {
         "reviewer": "Claude Opus 5.5",
         "sourceFrozenGitCommit": "1ffa639723af60b3405244296acef4baeced1fcd",
@@ -2053,11 +2110,12 @@
         "qaReceiptCheckedThisRun": false
       },
       "historicalLocalReleaseProbe": "LOCALHOST_2026-10-15T03:36:21.641Z_9_PASS_0_FAIL; planted control 8_PASS_1_FAIL_expected_digest_mismatch",
-      "authoritativeBacklog": "CURRENT_BACKLOG_READ_2026-10-15_STILL_APPROVED_QUEUED_NOT_BUILT_conflicts_with_protected_project_and_historical_QA",
-      "publicReleasePromoted": false,
+      "authoritativeBacklog": "FREE_PUBLIC_RELEASED_at_current_read_2026-10-15",
+      "publicReleasePromoted": "BACKLOG_RELEASED_but_functional_provenance_needs_exact_release_receipt",
       "paidCheckout": "NOT_CONFIGURED_in_authoritative_backlog",
       "catalogListed": false,
-      "lastCheckedAt": "2026-10-15T14:16:41.093Z"
+      "lastCheckedAt": "2026-10-15T17:27:08.682Z",
+      "currentAnonymousHttp": "GET_200_NO_REDIRECT_source_receipt_2026-10-15T16:54:12Z"
     },
     "eventRunSheet": {
       "name": "Event Run Sheet",
@@ -2073,7 +2131,285 @@
       "browserFunctionalAcceptance": "UNKNOWN_not_tested",
       "classification": "PROTECTED_CANDIDATE_NOT_PUBLIC_ACCEPTED",
       "lastCheckedAt": "2026-10-15T14:16:41.093Z"
-    }
+    },
+    "additionalFreeReleases": [
+      {
+        "skuId": 7,
+        "name": "Job Completion Pack",
+        "url": "https://aion-job-completion-pack.vercel.app/",
+        "classification": "FREE_PUBLIC_RELEASED_in_owner_20SKU_ledger_not_old_31_item_hub",
+        "authenticatedVercelProject": "EXISTS_latest_production_READY",
+        "vercelSsoProtectionSetting": "ENABLED_all_except_custom_domains",
+        "anonymousHttp": {
+          "status": 200,
+          "at": "2026-10-15T16:54:12.798Z",
+          "redirectToLogin": false,
+          "servedIndexSha256": "7b581e03109f8d7ecb02af3a7c06ad1a421d481154e97183d5cddec4fb3923b3",
+          "matchesAccepted": true
+        },
+        "crossFamilyQa": {
+          "verdict": "PASS",
+          "builderFamily": "OpenAI GPT-6",
+          "reviewerFamily": "Anthropic Claude Opus 5.5",
+          "frozenGitCommit": "9b91484ea8d1cf3fa2b9353179b684f64db5fdac",
+          "frozenSourceSha256": "7b581e03109f8d7ecb02af3a7c06ad1a421d481154e97183d5cddec4fb3923b3",
+          "high": 0,
+          "medium": 0,
+          "low": 4,
+          "reviewedAt": "2026-10-15T15:49Z"
+        },
+        "productionBrowserReceipt": {
+          "passes": 10,
+          "failures": 0,
+          "observedAt": "2026-10-15T15:52Z_to_15:58Z",
+          "tested": "anonymous GET; hash; headers; example output; removable print credit; browser errors; third-party requests; 320px layout",
+          "retestedByThisAuditor": false
+        },
+        "download": {
+          "status": "PRINT_OR_EXPORT_FUNCTION_REPORTED_PASS_IN_PRODUCTION_BROWSER_QA",
+          "standaloneOfflineUsage": "UNKNOWN_not_tested"
+        },
+        "installer": {
+          "desktop": "UNKNOWN_not_tested",
+          "mobile": "UNKNOWN_not_tested",
+          "appStore": "UNKNOWN_not_tested"
+        },
+        "paidCheckout": "NOT_CONFIGURED_NOT_ON_SALE",
+        "acceptedBuyerFulfillment": "UNKNOWN_not_tested",
+        "organicSettlement": "UNKNOWN_not_independently_checked",
+        "inOldCatalog": false
+      },
+      {
+        "skuId": 9,
+        "name": "Deposit Milestone Plan",
+        "url": "https://aion-deposit-milestone-plan.vercel.app/",
+        "classification": "FREE_PUBLIC_RELEASED_in_owner_20SKU_ledger_not_old_31_item_hub",
+        "authenticatedVercelProject": "EXISTS_latest_production_READY",
+        "vercelSsoProtectionSetting": "ENABLED_all_except_custom_domains",
+        "anonymousHttp": {
+          "status": 200,
+          "at": "2026-10-15T16:54:12.798Z",
+          "redirectToLogin": false,
+          "servedIndexSha256": "848faf4564c48bba0371042b424f8205f0eec4b115b9fed219e1756d36de0588",
+          "matchesAccepted": true
+        },
+        "crossFamilyQa": {
+          "verdict": "PASS",
+          "builderFamily": "OpenAI GPT-6",
+          "reviewerFamily": "Anthropic Claude Opus 5.5",
+          "frozenGitCommit": "ca5fc772219b7c01b127db3a43c6c005f611fb1f",
+          "frozenSourceSha256": "848faf4564c48bba0371042b424f8205f0eec4b115b9fed219e1756d36de0588",
+          "high": 0,
+          "medium": 0,
+          "low": 11,
+          "reviewedAt": "2026-10-15T15:49Z"
+        },
+        "productionBrowserReceipt": {
+          "passes": 10,
+          "failures": 0,
+          "observedAt": "2026-10-15T15:52Z_to_15:58Z",
+          "tested": "anonymous GET; hash; headers; example output; removable print credit; browser errors; third-party requests; 320px layout",
+          "retestedByThisAuditor": false
+        },
+        "download": {
+          "status": "PRINT_OR_EXPORT_FUNCTION_REPORTED_PASS_IN_PRODUCTION_BROWSER_QA",
+          "standaloneOfflineUsage": "UNKNOWN_not_tested"
+        },
+        "installer": {
+          "desktop": "UNKNOWN_not_tested",
+          "mobile": "UNKNOWN_not_tested",
+          "appStore": "UNKNOWN_not_tested"
+        },
+        "paidCheckout": "NOT_CONFIGURED_NOT_ON_SALE",
+        "acceptedBuyerFulfillment": "UNKNOWN_not_tested",
+        "organicSettlement": "UNKNOWN_not_independently_checked",
+        "inOldCatalog": false
+      },
+      {
+        "skuId": 12,
+        "name": "Service Menu Card",
+        "url": "https://aion-service-menu-card.vercel.app/",
+        "classification": "FREE_PUBLIC_RELEASED_in_owner_20SKU_ledger_not_old_31_item_hub",
+        "authenticatedVercelProject": "EXISTS_latest_production_READY",
+        "vercelSsoProtectionSetting": "ENABLED_all_except_custom_domains",
+        "anonymousHttp": {
+          "status": 200,
+          "at": "2026-10-15T16:54:12.798Z",
+          "redirectToLogin": false,
+          "servedIndexSha256": "05b3caf91ee9ab198c069192f3e41884f31cdcae256ba3a88c3fcd4097bdd749",
+          "matchesAccepted": true
+        },
+        "crossFamilyQa": {
+          "verdict": "PASS",
+          "builderFamily": "OpenAI GPT-6",
+          "reviewerFamily": "Anthropic Claude Opus 5.5",
+          "frozenGitCommit": "496d67a723fd449436f09bb96ade302bbf838b44",
+          "frozenSourceSha256": "05b3caf91ee9ab198c069192f3e41884f31cdcae256ba3a88c3fcd4097bdd749",
+          "high": 0,
+          "medium": 0,
+          "low": 10,
+          "reviewedAt": "2026-10-15T15:49Z"
+        },
+        "productionBrowserReceipt": {
+          "passes": 10,
+          "failures": 0,
+          "observedAt": "2026-10-15T15:52Z_to_15:58Z",
+          "tested": "anonymous GET; hash; headers; example output; removable print credit; browser errors; third-party requests; 320px layout",
+          "retestedByThisAuditor": false
+        },
+        "download": {
+          "status": "PRINT_OR_EXPORT_FUNCTION_REPORTED_PASS_IN_PRODUCTION_BROWSER_QA",
+          "standaloneOfflineUsage": "UNKNOWN_not_tested"
+        },
+        "installer": {
+          "desktop": "UNKNOWN_not_tested",
+          "mobile": "UNKNOWN_not_tested",
+          "appStore": "UNKNOWN_not_tested"
+        },
+        "paidCheckout": "NOT_CONFIGURED_NOT_ON_SALE",
+        "acceptedBuyerFulfillment": "UNKNOWN_not_tested",
+        "organicSettlement": "UNKNOWN_not_independently_checked",
+        "inOldCatalog": false
+      },
+      {
+        "skuId": 5,
+        "name": "Referral Card Kit",
+        "url": "https://aion-referral-card-kit.vercel.app/",
+        "classification": "FREE_PUBLIC_RELEASED_in_owner_20SKU_ledger_not_old_31_item_hub",
+        "authenticatedVercelProject": "EXISTS_latest_production_READY",
+        "vercelSsoProtectionSetting": "ENABLED_all_except_custom_domains",
+        "anonymousHttp": {
+          "status": 200,
+          "at": "2026-10-15T16:54:12.798Z",
+          "redirectToLogin": false,
+          "servedIndexSha256": "97259553ed5d7ef968c215227bfb834ce9e1e53bb29e536b6381148dc0ed8947",
+          "matchesAccepted": true
+        },
+        "crossFamilyQa": {
+          "verdict": "PASS",
+          "builderFamily": "OpenAI GPT-6",
+          "reviewerFamily": "Anthropic Claude Opus 5.5",
+          "frozenGitCommit": "4947a4789daf2ea9f0c0a02ffda17e9efba666f0",
+          "frozenSourceSha256": "97259553ed5d7ef968c215227bfb834ce9e1e53bb29e536b6381148dc0ed8947",
+          "high": 0,
+          "medium": 0,
+          "low": 8,
+          "reviewedAt": "2026-10-15T15:49Z"
+        },
+        "productionBrowserReceipt": {
+          "passes": 10,
+          "failures": 0,
+          "observedAt": "2026-10-15T15:52Z_to_15:58Z",
+          "tested": "anonymous GET; hash; headers; example output; removable print credit; browser errors; third-party requests; 320px layout",
+          "retestedByThisAuditor": false
+        },
+        "download": {
+          "status": "PRINT_OR_EXPORT_FUNCTION_REPORTED_PASS_IN_PRODUCTION_BROWSER_QA",
+          "standaloneOfflineUsage": "UNKNOWN_not_tested"
+        },
+        "installer": {
+          "desktop": "UNKNOWN_not_tested",
+          "mobile": "UNKNOWN_not_tested",
+          "appStore": "UNKNOWN_not_tested"
+        },
+        "paidCheckout": "NOT_CONFIGURED_NOT_ON_SALE",
+        "acceptedBuyerFulfillment": "UNKNOWN_not_tested",
+        "organicSettlement": "UNKNOWN_not_independently_checked",
+        "inOldCatalog": false
+      },
+      {
+        "skuId": 6,
+        "name": "Next Visit Reminder",
+        "url": "https://aion-next-visit-reminder.vercel.app/",
+        "classification": "FREE_PUBLIC_RELEASED_in_owner_20SKU_ledger_not_old_31_item_hub",
+        "authenticatedVercelProject": "EXISTS_latest_production_READY",
+        "vercelSsoProtectionSetting": "ENABLED_all_except_custom_domains",
+        "anonymousHttp": {
+          "status": 200,
+          "at": "2026-10-15T16:54:12.798Z",
+          "redirectToLogin": false,
+          "servedIndexSha256": "f6c7f352a21da6e97fe8f63cfa791ec80cb81c557dadd5fd537de6cbf50ee252",
+          "matchesAccepted": true
+        },
+        "crossFamilyQa": {
+          "verdict": "PASS",
+          "builderFamily": "OpenAI GPT-6",
+          "reviewerFamily": "Anthropic Claude Opus 5.5",
+          "frozenGitCommit": "dab2b1184d5d03d4386a9baa70643a84527965c1",
+          "frozenSourceSha256": "f6c7f352a21da6e97fe8f63cfa791ec80cb81c557dadd5fd537de6cbf50ee252",
+          "high": 0,
+          "medium": 0,
+          "low": 8,
+          "reviewedAt": "2026-10-15T15:49Z"
+        },
+        "productionBrowserReceipt": {
+          "passes": 10,
+          "failures": 0,
+          "observedAt": "2026-10-15T15:52Z_to_15:58Z",
+          "tested": "anonymous GET; hash; headers; example output; removable print credit; browser errors; third-party requests; 320px layout",
+          "retestedByThisAuditor": false
+        },
+        "download": {
+          "status": "PRINT_OR_EXPORT_FUNCTION_REPORTED_PASS_IN_PRODUCTION_BROWSER_QA",
+          "standaloneOfflineUsage": "UNKNOWN_not_tested"
+        },
+        "installer": {
+          "desktop": "UNKNOWN_not_tested",
+          "mobile": "UNKNOWN_not_tested",
+          "appStore": "UNKNOWN_not_tested"
+        },
+        "paidCheckout": "NOT_CONFIGURED_NOT_ON_SALE",
+        "acceptedBuyerFulfillment": "UNKNOWN_not_tested",
+        "organicSettlement": "UNKNOWN_not_independently_checked",
+        "inOldCatalog": false
+      },
+      {
+        "skuId": 13,
+        "name": "Checklist Maker",
+        "url": "https://aion-checklist-maker.vercel.app/",
+        "classification": "FREE_PUBLIC_RELEASED_in_owner_20SKU_ledger_not_old_31_item_hub",
+        "authenticatedVercelProject": "EXISTS_latest_production_READY",
+        "vercelSsoProtectionSetting": "ENABLED_all_except_custom_domains",
+        "anonymousHttp": {
+          "status": 200,
+          "at": "2026-10-15T16:54:12.798Z",
+          "redirectToLogin": false,
+          "servedIndexSha256": "188771251d1acbd8a9b3b277c69e42d3993fbfbc730f2f978f8c0ada26ae2997",
+          "matchesAccepted": true
+        },
+        "crossFamilyQa": {
+          "verdict": "PASS",
+          "builderFamily": "OpenAI GPT-6",
+          "reviewerFamily": "Anthropic Claude Opus 5.5",
+          "frozenGitCommit": "b57175fae307dd5e00aba493fc94477f7818eada",
+          "frozenSourceSha256": "188771251d1acbd8a9b3b277c69e42d3993fbfbc730f2f978f8c0ada26ae2997",
+          "high": 0,
+          "medium": 0,
+          "low": 5,
+          "reviewedAt": "2026-10-15T15:49Z"
+        },
+        "productionBrowserReceipt": {
+          "passes": 10,
+          "failures": 0,
+          "observedAt": "2026-10-15T15:52Z_to_15:58Z",
+          "tested": "anonymous GET; hash; headers; example output; removable print credit; browser errors; third-party requests; 320px layout",
+          "retestedByThisAuditor": false
+        },
+        "download": {
+          "status": "PRINT_OR_EXPORT_FUNCTION_REPORTED_PASS_IN_PRODUCTION_BROWSER_QA",
+          "standaloneOfflineUsage": "UNKNOWN_not_tested"
+        },
+        "installer": {
+          "desktop": "UNKNOWN_not_tested",
+          "mobile": "UNKNOWN_not_tested",
+          "appStore": "UNKNOWN_not_tested"
+        },
+        "paidCheckout": "NOT_CONFIGURED_NOT_ON_SALE",
+        "acceptedBuyerFulfillment": "UNKNOWN_not_tested",
+        "organicSettlement": "UNKNOWN_not_independently_checked",
+        "inOldCatalog": false
+      }
+    ]
   },
   "catalogProtectionObservation": {
     "project": "products",
@@ -2088,6 +2424,10 @@
       "uniqueTargets": 31,
       "linksMatchExistingFeed": 31
     },
-    "impact": "Vercel projects products, SKU1, SKU3, Event Run Sheet have SSO ON; SKU2 SSO OFF. Authorized HTML reads do not prove off-device credential-free browser functionality."
+    "impact": "Vercel projects products, SKU1, SKU3, Event Run Sheet have SSO ON; SKU2 SSO OFF. Authorized HTML reads do not prove off-device credential-free browser functionality.",
+    "vercelSsoSettingsLastVerifiedAt": "2026-10-15T17:27:08.682Z",
+    "apparentContradiction": "Vercel SSO toggle reports ENABLED for six newly deployed tool projects (and other selected projects), yet owner-computer evidence has anonymous GET 200 with no login redirect at 2026-10-15T16:54Z. Treat measured GET as reachability, not a blanket assertion about every unauthenticated user/session.",
+    "currentHubRead": "HTML_RETRIEVED_owner_machine_this_audit; catalog 31 individual links not independently retested",
+    "newFreeSkuPublicReadCount": 9
   }
 }
