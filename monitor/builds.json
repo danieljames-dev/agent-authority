@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-speed-to-lead-r2-1-cross-family-acceptance-grok-20261015",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T04:36:45.244953+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-15T04:40:42.773800+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
     "blockedMissions": 274,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "lastMissionOutcome": "done",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T04:41:00.330Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
     {
       "atUtc": "2026-10-15T04:26:01.927Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T00:51:00.182Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T00:50:00.496Z",
-      "productId": 13,
-      "message": "#13 SOP-to-Checklist Builder: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T04:37:00.216Z",
-  "materialFingerprint": "c7d3da7ae7888d4c34bc9e709116a53d8396589cb298ec3d3477c67513847823",
-  "materialChangedAtUtc": "2026-10-15T04:26:01.927Z"
+  "checkedAtUtc": "2026-10-15T04:41:00.330Z",
+  "materialFingerprint": "9111fcb99260d0b171a3a7a5f5f128db00f642cf4ea71524a73c5551b7e2f675",
+  "materialChangedAtUtc": "2026-10-15T04:41:00.330Z"
 }
