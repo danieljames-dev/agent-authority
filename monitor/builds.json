@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T20:16:31.383144+00:00",
+    "heartbeatAtUtc": "2026-10-15T20:22:32.317835+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#9 Deposit & Milestone Tracker: candidate → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T20:17:01.365Z",
+  "checkedAtUtc": "2026-10-15T20:23:00.661Z",
   "materialFingerprint": "c1fc5ccd91d44135507734501c7143fe97cbf1e95bc71effe19dd4fc2a83a232",
   "materialChangedAtUtc": "2026-10-15T19:51:00.409Z"
 }
