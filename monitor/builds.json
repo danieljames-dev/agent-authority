@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T01:50:33.594588+00:00",
+    "heartbeatAtUtc": "2026-10-15T01:58:06.166917+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#3 Contractor Change-Order Approval: candidate → reviewed; 3/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T01:51:00.059Z",
+  "checkedAtUtc": "2026-10-15T01:58:50.816Z",
   "materialFingerprint": "7369c34a7a74d940eacff5e141cb8a4c0b8a45d877b1a263545f962717b8ad70",
   "materialChangedAtUtc": "2026-10-15T01:30:00.528Z"
 }
