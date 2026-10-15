@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-approved-04-smart-customer-intake-form-grok-r1-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T15:28:53.710138+00:00",
+    "heartbeatAtUtc": "2026-10-15T15:34:54.461705+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to EXECUTED."
     }
   ],
-  "checkedAtUtc": "2026-10-15T15:29:00.371Z",
+  "checkedAtUtc": "2026-10-15T15:35:00.312Z",
   "materialFingerprint": "8c65b4398e8c83b8643a3edaa584cea378c96784706a4b50915fbdd5ef6e0ace",
   "materialChangedAtUtc": "2026-10-15T15:23:00.220Z"
 }
