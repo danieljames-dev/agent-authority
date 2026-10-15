@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T16:07:39.050058+00:00",
+    "missionId": "svp-approved-08-customer-onboarding-portal-grok-r1-20261015",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-15T16:11:44.048962+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 274,
-    "lastMissionOutcome": "done",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T16:12:06.544Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-15T15:46:00.428Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T02:25:00.794Z",
       "productId": null,
       "message": "Executor last outcome changed to BLOCKED."
-    },
-    {
-      "atUtc": "2026-10-15T02:06:01.002Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-15T16:08:00.607Z",
-  "materialFingerprint": "9111fcb99260d0b171a3a7a5f5f128db00f642cf4ea71524a73c5551b7e2f675",
-  "materialChangedAtUtc": "2026-10-15T15:46:00.428Z"
+  "checkedAtUtc": "2026-10-15T16:12:06.544Z",
+  "materialFingerprint": "350473da649d8035e8e123ecf5924e0f80c556d77166b1434fae1a1dd672a814",
+  "materialChangedAtUtc": "2026-10-15T16:12:06.544Z"
 }
