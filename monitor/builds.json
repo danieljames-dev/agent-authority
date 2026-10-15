@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-08-customer-onboarding-portal-grok-r1-20261015",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T17:24:14.225089+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-15T17:26:39.354717+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
     "blockedMissions": 275,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "lastMissionOutcome": "done",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T17:27:02.009Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
     {
       "atUtc": "2026-10-15T16:51:00.182Z",
       "productId": 4,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T16:26:59.765Z",
       "productId": 2,
       "message": "#2 Review Request Campaign Kit: public → public; 4/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T16:26:59.765Z",
-      "productId": 1,
-      "message": "#1 Appointment Gap Filler: queued → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T17:24:17.158Z",
-  "materialFingerprint": "a85b0822cee668d784a63b2b94c0b8660c0edf6325af464610d848b5b3b9b35b",
-  "materialChangedAtUtc": "2026-10-15T17:10:00.965Z"
+  "checkedAtUtc": "2026-10-15T17:27:02.009Z",
+  "materialFingerprint": "f7bf6c2dbd5eaa8018fcdfb39484399534e050702bc18522473b4eb41c428707",
+  "materialChangedAtUtc": "2026-10-15T17:27:02.009Z"
 }
