@@ -520,11 +520,11 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T21:01:57.036483+00:00",
+    "heartbeatAtUtc": "2026-10-15T21:02:57.402426+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
-    "waitingMissions": 1,
-    "blockedMissions": 278,
+    "waitingMissions": 0,
+    "blockedMissions": 281,
     "lastMissionOutcome": "blocked",
     "lastMissionState": "BLOCKED_PROVIDER_EXHAUSTED"
   },
@@ -595,7 +595,7 @@
       "message": "#13 SOP-to-Checklist Builder: candidate → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T21:01:59.858Z",
-  "materialFingerprint": "1ce0b2556174e95a99ce58fbaf900383c75f802a2764c24846ed72487bb346c4",
-  "materialChangedAtUtc": "2026-10-15T21:01:59.858Z"
+  "checkedAtUtc": "2026-10-15T21:03:00.070Z",
+  "materialFingerprint": "bc089da0fef41912841039cbd774217a1f9b54134d80da5c13a184deb8906ffe",
+  "materialChangedAtUtc": "2026-10-15T21:03:00.070Z"
 }
