@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T02:03:38.440571+00:00",
+    "missionId": "svp-x402-gateway-agent-ready-r2-2-cross-family-acceptance-grok-20261015",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-15T02:05:40.611617+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
-    "waitingMissions": 0,
+    "activeMissions": 1,
+    "waitingMissions": 1,
     "blockedMissions": 272,
-    "lastMissionOutcome": "done",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T02:06:01.002Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-15T01:30:00.528Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-14T19:59:00.465Z",
       "productId": null,
       "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-14T04:12:01.261Z",
-      "productId": 3,
-      "message": "#3 Contractor Change-Order Approval: candidate → reviewed; 3/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T02:04:00.965Z",
-  "materialFingerprint": "7369c34a7a74d940eacff5e141cb8a4c0b8a45d877b1a263545f962717b8ad70",
-  "materialChangedAtUtc": "2026-10-15T01:30:00.528Z"
+  "checkedAtUtc": "2026-10-15T02:06:01.002Z",
+  "materialFingerprint": "9009e4dd42e9bcc36fa82d4fb9399b3044abcaf8cea499f19c1380bf98d8d799",
+  "materialChangedAtUtc": "2026-10-15T02:06:01.002Z"
 }
