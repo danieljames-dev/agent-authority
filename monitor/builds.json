@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-x402-gateway-r2-3-cross-family-acceptance-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T18:09:33.771251+00:00",
+    "heartbeatAtUtc": "2026-10-15T18:14:33.956972+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 1,
@@ -595,7 +595,7 @@
       "message": "#5 Referral Campaign Tracker: candidate → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T18:10:00.533Z",
+  "checkedAtUtc": "2026-10-15T18:15:01.336Z",
   "materialFingerprint": "3e418afa8deba13e9ff74e74e7a1bc6d24dd4cce9015a9274bc43e48586530ca",
   "materialChangedAtUtc": "2026-10-15T18:10:00.533Z"
 }
