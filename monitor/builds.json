@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-speed-to-lead-r2-1-cross-family-acceptance-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T04:25:44.992723+00:00",
+    "heartbeatAtUtc": "2026-10-15T04:31:45.112530+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#13 SOP-to-Checklist Builder: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T04:26:01.927Z",
+  "checkedAtUtc": "2026-10-15T04:32:00.156Z",
   "materialFingerprint": "c7d3da7ae7888d4c34bc9e709116a53d8396589cb298ec3d3477c67513847823",
   "materialChangedAtUtc": "2026-10-15T04:26:01.927Z"
 }
