@@ -520,10 +520,10 @@
   "executor": {
     "missionId": "svp-approved-04-smart-customer-intake-form-repair-r2-finish-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T18:20:43.183098+00:00",
+    "heartbeatAtUtc": "2026-10-15T18:26:43.416059+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 276,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "#5 Referral Campaign Tracker: candidate → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T18:21:01.862Z",
-  "materialFingerprint": "6ebf9de8974c5dc86352ea18c2a5ac061edb277f22bea1fe148aa62727e80f29",
-  "materialChangedAtUtc": "2026-10-15T18:21:01.862Z"
+  "checkedAtUtc": "2026-10-15T18:26:59.778Z",
+  "materialFingerprint": "826d6024fb2164ecac25dd8a55b28dafff081b7d8ff622913e657f21b4a79667",
+  "materialChangedAtUtc": "2026-10-15T18:26:59.778Z"
 }
