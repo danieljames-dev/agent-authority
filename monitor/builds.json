@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-15T16:26:10.952Z",
+  "lastSourceChangeAtUtc": "2026-10-15T16:50:29.441Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -27,7 +27,7 @@
     19,
     20
   ],
-  "selectedProductId": 8,
+  "selectedProductId": 4,
   "selectedMeansWorkerRunning": false,
   "products": [
     {
@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-approved-04-smart-customer-intake-form-repair-r2-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T16:49:46.321564+00:00",
+    "heartbeatAtUtc": "2026-10-15T16:50:46.663100+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 2,
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T16:51:00.182Z",
+      "productId": 4,
+      "message": "Product focus moved to #4 Smart Customer Intake Form."
+    },
     {
       "atUtc": "2026-10-15T16:26:59.765Z",
       "productId": 8,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T16:26:59.765Z",
       "productId": 1,
       "message": "#1 Appointment Gap Filler: queued → public; 4/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T16:12:06.544Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-15T16:49:59.946Z",
-  "materialFingerprint": "97e84064dcf3420898c2e86cb52d826bb41176e80dbec7fc2049d82214ff4933",
-  "materialChangedAtUtc": "2026-10-15T16:44:59.892Z"
+  "checkedAtUtc": "2026-10-15T16:51:00.182Z",
+  "materialFingerprint": "fcf403f320e9bf00d83f3babc950912c8fe2e88dcf0da947335760e319724395",
+  "materialChangedAtUtc": "2026-10-15T16:51:00.182Z"
 }
