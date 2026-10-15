@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-x402-gateway-r2-3-cross-family-acceptance-grok-20261015",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T18:00:34.098182+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-15T18:01:31.994414+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
-    "waitingMissions": 0,
+    "activeMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 275,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "lastMissionOutcome": "retry",
+    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T18:02:00.464Z",
+      "productId": null,
+      "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
+    },
     {
       "atUtc": "2026-10-15T17:32:00.228Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T16:26:59.765Z",
       "productId": 4,
       "message": "#4 Smart Customer Intake Form: queued → candidate; 2/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T16:26:59.765Z",
-      "productId": 3,
-      "message": "#3 Contractor Change-Order Approval: public → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T18:00:59.624Z",
-  "materialFingerprint": "c42a9f3aa9eed8dc2be846f919fd1c7176d85c7f91479e464763e468cf62968b",
-  "materialChangedAtUtc": "2026-10-15T17:32:00.228Z"
+  "checkedAtUtc": "2026-10-15T18:02:00.464Z",
+  "materialFingerprint": "b92042cd13a5ad1a995e3095680caea5d383a1ba783e5be55220b4e8c372ef50",
+  "materialChangedAtUtc": "2026-10-15T18:02:00.464Z"
 }
