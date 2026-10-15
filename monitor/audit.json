@@ -4,10 +4,10 @@
   "enabled": true,
   "cadence": "hourly",
   "firstScheduledAt": "2026-10-12T23:15:50Z",
-  "lastRunAt": "2026-10-15T09:22:45.335Z",
+  "lastRunAt": "2026-10-15T14:16:41.093Z",
   "lastSuccessfulRunAt": null,
-  "reportedAt": "2026-10-15T09:22:45.335Z",
-  "runState": "PARTIAL_82_PROJECTS_31_OF_31_AUTHORIZED_HTML_RETRIEVED_PUBLIC_FUNCTIONAL_AND_NUMERIC_HTTP_UNKNOWN_ATLAS_HEARTBEAT_STALE",
+  "reportedAt": "2026-10-15T14:16:41.093Z",
+  "runState": "PARTIAL_82_VERCEL_PROJECTS_31_OF_31_AUTHORIZED_HTML_RETRIEVAL_HISTORICAL_QA_ATLAS_EXECUTOR_STALE_NO_CURRENT_PUBLIC_BROWSER_ACCEPTANCE",
   "inventory": {
     "vercelProjectCount": 82,
     "productCandidateProjects": 28,
@@ -22,20 +22,20 @@
     "downloadHtmlVerifiedCount": 5,
     "downloadLocalOpenVerifiedCount": 5,
     "installerReleaseVerifiedCount": 0,
-    "vercelInventoryCheckedAt": "2026-10-15T09:22:45.335Z",
-    "catalogHtmlRetrievedAt": "2026-10-15T09:22:45.335Z",
+    "vercelInventoryCheckedAt": "2026-10-15T14:16:41.093Z",
+    "catalogHtmlRetrievedAt": "2026-10-15T14:16:41.093Z",
     "catalogHtmlUrl": "https://products-iota-one.vercel.app/",
     "currentIndividualHttp200Count": null,
     "currentIndividualNon200Count": null,
     "currentWebFunctionalAcceptedCount": null,
     "currentOfflineFunctionalAcceptedCount": null,
     "currentInstallableAcceptedCount": null,
-    "historicalEvidenceOnlyNote": "2026-10-15 audit: all 31 catalog entries returned recognizable tool HTML from authorized AION machine. Live hub links: 36 anchors, 31 unique destinations, 31/31 match existing feed. Five downloadable standalone HTML URLs retrieved; only historical Oct 12 local-opening proof, not offline processing acceptance. Numeric response codes not exposed by URL reader; separate external web access failed. Prior Oct 12 31 HTTP-200 results are historical. Vercel inventory 82 projects. Atlas executor status file last heartbeat 2026-10-15T08:33:13.808069Z (50 minutes old); listed PID not in process scan, actual executor state UNKNOWN.",
+    "historicalEvidenceOnlyNote": "2026-10-15 current authorized owner-computer URL reads: all 31 known catalog destinations, including five downloadable single-file HTML tools, each returned recognizable HTML. Numeric HTTP status not exposed by this URL reader; independent web retrieval failed. No current credential-free browser functional acceptance or offline processing tests. Vercel project inventory 82. Oct 12 31/31 HTTP 200 and 5 local-open receipts are historical only. Atlas controller lease PRIMARY; executor last heartbeat 2026-10-15T08:33:13Z, PID 9276 absent in current process listing, operating state UNKNOWN.",
     "currentIndividualHtmlRetrievedCount": 31,
     "currentIndividualHtmlErrorCount": 0,
-    "currentIndividualHtmlReadAt": "2026-10-15T09:22:45.335Z",
+    "currentIndividualHtmlReadAt": "2026-10-15T14:16:41.093Z",
     "productCandidateProjectsRecountedThisRun": false,
-    "productCandidateProjectsEvidenceState": "STALE_prior_28_not_currently_recounted",
+    "productCandidateProjectsEvidenceState": "STALE_prior_28_not_recounted",
     "historicalHttp200EvidenceAt": "2026-10-12T20:40:37Z",
     "latestObservedCatalogUniqueTargets": 31,
     "currentAnonymousBrowserAcceptedCount": null,
@@ -75,12 +75,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/odoo-import-doctor/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -129,12 +129,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/free-planning-tools/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -183,12 +183,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/agency-reseller-margin-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -237,12 +237,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://late-payment-cost-calculator.vercel.app/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -291,12 +291,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://missed-call-cost-calculator-ivory.vercel.app/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -345,12 +345,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/subscription-waste-audit/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -399,12 +399,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/scope-creep-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -453,12 +453,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/team-capacity-planner/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -507,12 +507,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/customer-churn-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -561,12 +561,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/project-deposit-coverage-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -615,12 +615,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/rework-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -669,12 +669,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/client-concentration-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -723,12 +723,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/meeting-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -777,12 +777,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/vendor-price-increase-impact-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -831,12 +831,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/payment-fee-impact-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -885,12 +885,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/inventory-stockout-opportunity-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -939,12 +939,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/training-time-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -993,12 +993,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/equipment-downtime-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1047,12 +1047,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/overtime-cost-impact-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1101,12 +1101,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/returns-processing-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1155,12 +1155,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/warranty-claim-cost-calculator/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1209,12 +1209,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://website-chat-bot-standard.vercel.app/en/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1263,12 +1263,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://quote-margin-board.vercel.app/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1317,12 +1317,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://supply-cost-reorder-board.vercel.app/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1371,12 +1371,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://speed-to-lead-audit.vercel.app/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1425,12 +1425,12 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://contract-commitment-extractor.vercel.app/",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
@@ -1479,18 +1479,18 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/metastrip/MetaStrip.html",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
           "url": "https://products-iota-one.vercel.app/metastrip/MetaStrip.html",
-          "retrieval": "REAL_HTML_SOURCE_RETRIEVED_current_audit",
-          "historicalLocalOpen": "HISTORICAL_OCT12_LOCAL_OPEN_ONLY",
+          "retrieval": "STANDALONE_HTML_RETRIEVED_current_audit",
+          "historicalLocalOpen": "OPENED_LOCALLY_2026-10-12_HISTORICAL_ONLY",
           "offlineFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "install": {
@@ -1533,18 +1533,18 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/batchmate/BatchMate.html",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
           "url": "https://products-iota-one.vercel.app/batchmate/BatchMate.html",
-          "retrieval": "REAL_HTML_SOURCE_RETRIEVED_current_audit",
-          "historicalLocalOpen": "HISTORICAL_OCT12_LOCAL_OPEN_ONLY",
+          "retrieval": "STANDALONE_HTML_RETRIEVED_current_audit",
+          "historicalLocalOpen": "OPENED_LOCALLY_2026-10-12_HISTORICAL_ONLY",
           "offlineFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "install": {
@@ -1587,18 +1587,18 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/sheettidy/SheetTidy.html",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
           "url": "https://products-iota-one.vercel.app/sheettidy/SheetTidy.html",
-          "retrieval": "REAL_HTML_SOURCE_RETRIEVED_current_audit",
-          "historicalLocalOpen": "HISTORICAL_OCT12_LOCAL_OPEN_ONLY",
+          "retrieval": "STANDALONE_HTML_RETRIEVED_current_audit",
+          "historicalLocalOpen": "OPENED_LOCALLY_2026-10-12_HISTORICAL_ONLY",
           "offlineFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "install": {
@@ -1641,18 +1641,18 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/iconforge/IconForge.html",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
           "url": "https://products-iota-one.vercel.app/iconforge/IconForge.html",
-          "retrieval": "REAL_HTML_SOURCE_RETRIEVED_current_audit",
-          "historicalLocalOpen": "HISTORICAL_OCT12_LOCAL_OPEN_ONLY",
+          "retrieval": "STANDALONE_HTML_RETRIEVED_current_audit",
+          "historicalLocalOpen": "OPENED_LOCALLY_2026-10-12_HISTORICAL_ONLY",
           "offlineFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "install": {
@@ -1695,18 +1695,18 @@
         }
       },
       "currentAudit": {
-        "auditedAt": "2026-10-15T09:22:45.335Z",
+        "auditedAt": "2026-10-15T14:16:41.093Z",
         "web": {
           "url": "https://products-iota-one.vercel.app/renamekit/RenameKit.html",
-          "httpStatus": "UNKNOWN_numeric_http_status_not_exposed_by_url_reader",
-          "htmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_current_audit",
-          "anonymousAccess": "UNKNOWN_no_credential_free_external_browser_test",
+          "httpStatus": "UNKNOWN_numeric_success_status_not_exposed_by_authorized_url_reader",
+          "htmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_current_audit",
+          "anonymousAccess": "UNKNOWN_external_unauthenticated_browser_test_unavailable",
           "browserFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "download": {
           "url": "https://products-iota-one.vercel.app/renamekit/RenameKit.html",
-          "retrieval": "REAL_HTML_SOURCE_RETRIEVED_current_audit",
-          "historicalLocalOpen": "HISTORICAL_OCT12_LOCAL_OPEN_ONLY",
+          "retrieval": "STANDALONE_HTML_RETRIEVED_current_audit",
+          "historicalLocalOpen": "OPENED_LOCALLY_2026-10-12_HISTORICAL_ONLY",
           "offlineFunctionalAcceptance": "NOT_TESTED_this_run"
         },
         "install": {
@@ -1933,21 +1933,43 @@
       ],
       "safety": "Read-only checks only. Atlas remains named PRIMARY via durable lease; no deployments, DNS/security, workers, payments, spending, or backlog mutations.",
       "commercial": "No new independent payments checked; price proposals not sales, buyer fulfillment and new organic settlements UNKNOWN."
+    },
+    {
+      "at": "2026-10-15T14:16:41.093Z",
+      "result": "PARTIAL_82_PROJECTS_31_HTML_RETRIEVED_FIVE_DOWNLOADS_QA_SOURCE_REVALIDATED_EXECUTOR_STALE",
+      "checked": {
+        "authenticatedVercelProjectCount": 82,
+        "approvedCatalogEntries": 31,
+        "individualHtmlRetrieved": 31,
+        "individualHtmlFailed": 0,
+        "individualHttpCodes": "UNKNOWN_not_exposed",
+        "browserFunctionalAcceptance": "UNKNOWN_not_currently_tested",
+        "downloadHtmlRetrieved": 5,
+        "offlineFunctionalAcceptance": "HISTORICAL_local_open_only",
+        "installableAppAcceptance": "UNKNOWN",
+        "sku1": "PROTECTED_SSO_ON_QA_STAGE_PASS_local_browser_9_0_not_public",
+        "sku2": "FROZEN_R3_INDEPENDENT_GROK_4.6_QA_PASS_50_0_QR_10_0_public_browser_14_0_historical_SSO_OFF",
+        "sku3": "HISTORICAL_PUBLIC_BROWSER_11_0_SSO_ON_current_anonymous_UNKNOWN",
+        "eventRunSheet": "PROTECTED_SSO_ON_QA_UNKNOWN",
+        "customCatalog": "DNS_ENOTFOUND",
+        "atlasExecutor": "LAST_HEARTBEAT_2026-10-15T08:33:13Z_PID_9276_MISSING_STATE_UNKNOWN"
+      },
+      "safety": "No controller/worker creation, public promotion, DNS/security/payment/account changes, or spend.",
+      "commercial": "No new independent payment checks. Price, checkout, fulfillment, organic settled revenue UNKNOWN unless historical proof specifically sourced."
     }
   ],
   "blockers": [
-    "Current 31/31 AION-machine product HTML retrieved, but numeric HTTP codes not supplied by URL reader. Oct12 31/31 HTTP-200 is historical.",
-    "Off-device browser/web fetch of Products Hub and SKUs 1/2/3 failed; anonymous functional verification UNKNOWN this run.",
-    "Vercel default-domain SSO is enabled for Products Hub, SKU1, SKU3, and Event Run Sheet; SKU2 SSO OFF. HTML retrieved from authorized machine does not close this contradiction.",
-    "SKU1 authoritative backlog still APPROVED_QUEUED/NOT_BUILT despite verified Vercel project and QA-stage evidence; 9/0 acceptance source was localhost not production.",
-    "Event Run Sheet independent QA receipt and public functional acceptance UNKNOWN.",
-    "Five HTML mini-tools retrieved, only Oct12 local-opening evidence; end-to-end offline usage and installables UNKNOWN.",
-    "Free Data Cleaner Unicode defect closure UNKNOWN.",
-    "catalog.aiserviceco.com fails DNS resolution on authorized machine.",
-    "Atlas executor heartbeat last file timestamp 2026-10-15T08:33:13.808069Z, approximately 50 minutes old; matching recorded process absent from current process listing. Whether Atlas restarted elsewhere is UNKNOWN. Do not spawn rival.",
-    "No new independent checkout, funded fulfillment, or organic on-chain settlements audited; commercial fields remain UNKNOWN."
+    "All 31 owner-computer URL HTML retrievals successful this run; numeric current HTTP codes UNKNOWN because URL reader omits response statuses. Oct 12 numeric 31/31 HTTP-200 evidence is historical.",
+    "External independent web retrieval of hub/SKU1/SKU2/SKU3/Event Run Sheet/custom catalog inaccessible to web tool, so fresh off-device anonymous browser functional acceptance UNKNOWN.",
+    "Vercel SSO ON for Products Hub, SKU1, SKU3, and Event Run Sheet; SKU2 SSO OFF. Authenticated-device HTML retrieval cannot resolve anonymous customer access.",
+    "SKU1 authoritative backlog STILL APPROVED_QUEUED/NOT_BUILT despite project and frozen independent QA. Its 9/0 browser tests were localhost-only, not production.",
+    "Five downloadable HTML tools retrieved, but complete offline processing, desktop/mobile installer tests, and app-store acceptance UNKNOWN; Oct 12 local-opening evidence only.",
+    "Free Data Cleaner Unicode defect closure UNKNOWN; do not promote or distribute until exact fix/reviewer receipt.",
+    "catalog.aiserviceco.com failed DNS resolution on owner computer (ENOTFOUND).",
+    "Atlas executor status heartbeat last 2026-10-15T08:33:13.808069Z; PID 9276 absent in fresh process list. Atlas PRIMARY lease remains but executor state UNKNOWN. Do not start competing worker.",
+    "No live payment/fulfillment/organic settlement audit in this pass: UNKNOWN, not zero."
   ],
-  "nextAction": "Read-only: flag the stale Atlas executor heartbeat to the single PRIMARY controller; do not restart or duplicate paid workers. Reconcile SKU1 stale approved backlog against acceptance and release authority; get approved anonymous off-device browser tests, especially default-domain SSO conflicts, without changing production or security settings.",
+  "nextAction": "Atlas sole controller: reconcile stale executor heartbeat/process and SKU1 backlog mismatch. Then independently test credential-free public browser behavior under release/SSO QA gates. Do not promote protected candidates, bypass protections, deploy, or spend.",
   "distributionEvidence": {
     "verifiedAt": "2026-10-12T23:53:59.730Z",
     "method": "Chrome Playwright: download links saved five HTML files and opened each from file:// with upload controls and no page JavaScript errors; this is NOT end-to-end offline processing QA.",
@@ -1967,15 +1989,15 @@
       "vercelProjectExists": true,
       "productionDeployment": "READY_authenticated_Vercel",
       "vercelAuthenticationEnabled": false,
-      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_at_2026-10-15T09:22:45.335Z",
-      "currentNumericHttpStatus": "UNKNOWN_not_exposed",
+      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
+      "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "publicAnonymousHttp": "HISTORICAL_HTTP_200_2026-10-13_NOT_RETESTED",
-      "browserFunctionalAcceptance": "HISTORICAL_PUBLIC_14_PASS_0_FAIL_2026-10-13_NOT_RETESTED",
-      "independentQaReceipt": "PASS_Grok_4.6_frozen_R3_QA_RESULT_READ_THIS_RUN_50_PASS_0_FAIL_10_QR_LENGTH_PASS_0_FAIL",
+      "browserFunctionalAcceptance": "HISTORICAL_SOURCE_POST_LAUNCH_2026-10-13T23:20Z_PUBLIC_URL_BROWSER_14_PASS_0_FAIL_NOT_RETESTED_THIS_RUN",
+      "independentQaReceipt": "EXACT_SOURCE_QA_RESULT_READ_2026-10-15_Grok_4.6_different_family_frozen_R3_PASS_50_checks_pass_0_fail_10_QR_length_pass_0_fail; 2026-10-13T22:33:30Z",
       "paidCheckout": "NOT_CONFIGURED_in_authoritative_backlog",
       "catalogListed": false,
-      "lastCheckedAt": "2026-10-15T09:22:45.335Z",
-      "currentAnonymousHttp": "UNKNOWN_current_run; historical_public_200_and_14_0_retained"
+      "lastCheckedAt": "2026-10-15T14:16:41.093Z",
+      "currentAnonymousHttp": "UNKNOWN_current_run_historical_200_retained"
     },
     "sku3": {
       "name": "Contractor Change-Order Approval",
@@ -1984,8 +2006,8 @@
       "productionDeployment": "READY_authenticated_Vercel",
       "vercelAuthenticationEnabled": true,
       "protectionScope": "all_except_custom_domains",
-      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_at_2026-10-15T09:22:45.335Z",
-      "currentNumericHttpStatus": "UNKNOWN_not_exposed",
+      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
+      "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "publicAnonymousHttp": "HISTORICAL_UNCREDENTIALED_HTTP_200_2026-10-15T00:05:04Z_NOT_RETESTED",
       "productionBrowserAcceptance": "HISTORICAL_11_PASS_0_FAIL_NOT_RETESTED",
       "independentQaReceipt": "PASS_Grok_4.7_frozen_R3_exact_QA_RESULT_READ_2026-10-15",
@@ -1993,7 +2015,7 @@
       "independentQaSourceSha256": "1b466d701649a14996f19b8e32558d37fa4c96057ca47ec3d9b5106c77f80178",
       "qaStageReleaseAuthorized": false,
       "authoritativeBacklogStatus": "PUBLIC_WEB_RELEASED_QA_ACCEPTED_r3_PAID_TIERS_NOT_ON_SALE",
-      "currentAnonymousCustomerReachability": "UNKNOWN_Vercel_SSO_enabled; historical_browser_11_0_retained",
+      "currentAnonymousCustomerReachability": "UNKNOWN_SSO_ON_production_browser_not_retested",
       "knownLowNonblockingFindings": [
         "OBS-LTOTAL",
         "OBS-320"
@@ -2001,11 +2023,11 @@
       "rollbackVerification": "UNKNOWN_not_retested_or_receipted_this_run",
       "paidCheckout": "NOT_CONFIGURED_in_authoritative_backlog",
       "catalogListed": false,
-      "lastCheckedAt": "2026-10-15T09:22:45.335Z"
+      "lastCheckedAt": "2026-10-15T14:16:41.093Z"
     },
     "approved20SkuBacklog": {
       "source": "Authoritative Windows product backlog read this run; internal paths excluded",
-      "sourceRead": "YES_2026-10-15T09:22:45.335Z_20_approved",
+      "sourceRead": "YES_2026-10-15_current_20_approved; SKU2_AND_SKU3_ledger_public_FREE_SKU1_queued_STALE",
       "publicReleasePromotion": "SKU2_and_SKU3_recorded_as_free_public_releases_with_historical_production_browser_acceptance; no fresh anonymous browser QA",
       "sku1Conflict": "BACKLOG_APPROVED_QUEUED_NOT_BUILT_BUT_HOSTED_HTML_EXISTS_AND_HISTORICAL_QA_PASS; NO_PRODUCTION_QA_PROMOTION",
       "additionalCandidates": "SKU5_6_7_9_12_13_builder_candidates_review_pending_not_public",
@@ -2018,10 +2040,10 @@
       "productionDeployment": "READY",
       "vercelAuthenticationEnabled": true,
       "protectionScope": "all_except_custom_domains",
-      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_at_2026-10-15T09:22:45.335Z",
-      "currentNumericHttpStatus": "UNKNOWN_not_exposed",
+      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
+      "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "currentAnonymousAccess": "UNKNOWN_Vercel_SSO_enabled",
-      "currentBrowserAcceptance": "NOT_TESTED_public_production_this_run; historical_9_0_localhost_only",
+      "currentBrowserAcceptance": "NOT_TESTED_public_production_this_run; historical_9_pass_0_fail_localhost_only",
       "historicalIndependentQa": {
         "reviewer": "Claude Opus 5.5",
         "sourceFrozenGitCommit": "1ffa639723af60b3405244296acef4baeced1fcd",
@@ -2031,11 +2053,11 @@
         "qaReceiptCheckedThisRun": false
       },
       "historicalLocalReleaseProbe": "LOCALHOST_2026-10-15T03:36:21.641Z_9_PASS_0_FAIL; planted control 8_PASS_1_FAIL_expected_digest_mismatch",
-      "authoritativeBacklog": "STALE_APPROVED_QUEUED_NOT_BUILT_despite_project_and_frozen_QA_evidence",
+      "authoritativeBacklog": "CURRENT_BACKLOG_READ_2026-10-15_STILL_APPROVED_QUEUED_NOT_BUILT_conflicts_with_protected_project_and_historical_QA",
       "publicReleasePromoted": false,
       "paidCheckout": "NOT_CONFIGURED_in_authoritative_backlog",
       "catalogListed": false,
-      "lastCheckedAt": "2026-10-15T09:22:45.335Z"
+      "lastCheckedAt": "2026-10-15T14:16:41.093Z"
     },
     "eventRunSheet": {
       "name": "Event Run Sheet",
@@ -2044,13 +2066,13 @@
       "productionDeployment": "READY",
       "vercelAuthenticationEnabled": true,
       "protectionScope": "all_except_custom_domains",
-      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_AION_machine_at_2026-10-15T09:22:45.335Z",
-      "currentNumericHttpStatus": "UNKNOWN_not_exposed",
+      "currentHtmlRetrieval": "HTML_RETRIEVED_authorized_owner_machine_at_2026-10-15T14:16:41.093Z",
+      "currentNumericHttpStatus": "UNKNOWN_not_exposed_by_url_reader",
       "independentQaReceipt": "UNKNOWN_not_read",
       "anonymousCustomerAccess": "UNKNOWN_Vercel_SSO_enabled",
       "browserFunctionalAcceptance": "UNKNOWN_not_tested",
       "classification": "PROTECTED_CANDIDATE_NOT_PUBLIC_ACCEPTED",
-      "lastCheckedAt": "2026-10-15T09:22:45.335Z"
+      "lastCheckedAt": "2026-10-15T14:16:41.093Z"
     }
   },
   "catalogProtectionObservation": {
@@ -2060,13 +2082,12 @@
     "protectionScope": "all_except_custom_domains",
     "directRemoteRead": {
       "htmlRetrieved": true,
-      "at": "2026-10-15T09:22:45.335Z",
+      "at": "2026-10-15T14:16:41.093Z",
       "htmlCards": 31,
       "downloadLinkCount": 5,
-      "hrefAnchors": 36,
       "uniqueTargets": 31,
       "linksMatchExistingFeed": 31
     },
-    "impact": "Authenticated-device retrieval proves served HTML, not a credential-free anonymous customer browser session; do not call web functional."
+    "impact": "Vercel projects products, SKU1, SKU3, Event Run Sheet have SSO ON; SKU2 SSO OFF. Authorized HTML reads do not prove off-device credential-free browser functionality."
   }
 }
