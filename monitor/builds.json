@@ -2,7 +2,7 @@
   "schema": "aion.approvedBuildTracker.v1",
   "source": "Approved president backlog + read-only executor status",
   "approvedAtUtc": "2026-10-13T00:26:00Z",
-  "lastSourceChangeAtUtc": "2026-10-15T00:49:10.859Z",
+  "lastSourceChangeAtUtc": "2026-10-15T16:26:10.952Z",
   "approvedTotal": 20,
   "productTotal": 20,
   "rankedExecutionOrder": [
@@ -27,7 +27,7 @@
     19,
     20
   ],
-  "selectedProductId": 1,
+  "selectedProductId": 8,
   "selectedMeansWorkerRunning": false,
   "products": [
     {
@@ -35,24 +35,24 @@
       "name": "Appointment Gap Filler",
       "proposedPrice": "$10 DIY; $29/month automated",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
-        "built": false,
+        "built": true,
         "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 1,
+      "completedGates": 4,
       "totalGates": 6,
-      "web": "not_built",
-      "download": "not_built",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "pending",
-      "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
+      "qa": "independently_accepted",
+      "checkout": "unverified",
+      "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
       "id": 2,
@@ -64,18 +64,18 @@
       "gates": {
         "approved": true,
         "built": true,
-        "tested": true,
+        "tested": false,
         "independentQa": true,
         "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 5,
+      "completedGates": 4,
       "totalGates": 6,
       "web": "public_functional_verified",
       "download": "unverified",
       "install": "not_built",
       "qa": "independently_accepted",
-      "checkout": "not_configured",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -88,18 +88,18 @@
       "gates": {
         "approved": true,
         "built": true,
-        "tested": true,
+        "tested": false,
         "independentQa": true,
         "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 5,
+      "completedGates": 4,
       "totalGates": 6,
       "web": "public_functional_verified",
       "download": "unverified",
       "install": "not_built",
       "qa": "independently_accepted",
-      "checkout": "not_configured",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -107,30 +107,6 @@
       "name": "Smart Customer Intake Form",
       "proposedPrice": "$10 kit; $29/month hosted",
       "approval": "approved",
-      "stage": "queued",
-      "stageLabel": "Approved, awaiting build",
-      "gates": {
-        "approved": true,
-        "built": false,
-        "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
-        "paidFulfillment": false
-      },
-      "completedGates": 1,
-      "totalGates": 6,
-      "web": "not_built",
-      "download": "not_built",
-      "install": "not_built",
-      "qa": "pending",
-      "checkout": "not_configured",
-      "evidence": "Approval recorded. No build proof yet."
-    },
-    {
-      "id": 5,
-      "name": "Referral Campaign Tracker",
-      "proposedPrice": "$10 kit; $19/month tracking",
-      "approval": "approved",
       "stage": "candidate",
       "stageLabel": "Candidate built, release gated",
       "gates": {
@@ -144,10 +120,34 @@
       "completedGates": 2,
       "totalGates": 6,
       "web": "unverified",
-      "download": "not_built",
+      "download": "unverified",
       "install": "not_built",
       "qa": "unverified",
-      "checkout": "not_configured",
+      "checkout": "unverified",
+      "evidence": "Verify exact artifact and release evidence before public promotion."
+    },
+    {
+      "id": 5,
+      "name": "Referral Campaign Tracker",
+      "proposedPrice": "$10 kit; $19/month tracking",
+      "approval": "approved",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
+      "gates": {
+        "approved": true,
+        "built": true,
+        "tested": false,
+        "independentQa": true,
+        "publicFunctionality": true,
+        "paidFulfillment": false
+      },
+      "completedGates": 4,
+      "totalGates": 6,
+      "web": "public_functional_verified",
+      "download": "unverified",
+      "install": "not_built",
+      "qa": "independently_accepted",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -155,23 +155,23 @@
       "name": "Repeat-Booking Reminder Kit",
       "proposedPrice": "$10 once; $19/month automated",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
         "built": true,
         "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 2,
+      "completedGates": 4,
       "totalGates": 6,
-      "web": "unverified",
-      "download": "not_built",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "unverified",
-      "checkout": "not_configured",
+      "qa": "independently_accepted",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -179,23 +179,23 @@
       "name": "Job Completion Evidence Pack",
       "proposedPrice": "$10 pack; $19/month archive",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
         "built": true,
         "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 2,
+      "completedGates": 4,
       "totalGates": 6,
-      "web": "unverified",
-      "download": "not_built",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "unverified",
-      "checkout": "not_configured",
+      "qa": "independently_accepted",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -227,23 +227,23 @@
       "name": "Deposit & Milestone Tracker",
       "proposedPrice": "$10 once; $19/month hosted",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
         "built": true,
         "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 2,
+      "completedGates": 4,
       "totalGates": 6,
-      "web": "unverified",
-      "download": "not_built",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "unverified",
-      "checkout": "not_configured",
+      "qa": "independently_accepted",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -299,23 +299,23 @@
       "name": "Service Menu & Rate Card Builder",
       "proposedPrice": "$10 once",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
         "built": true,
         "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 2,
+      "completedGates": 4,
       "totalGates": 6,
-      "web": "unverified",
-      "download": "not_built",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "unverified",
-      "checkout": "not_configured",
+      "qa": "independently_accepted",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -323,23 +323,23 @@
       "name": "SOP-to-Checklist Builder",
       "proposedPrice": "$10 once; $19/month teams",
       "approval": "approved",
-      "stage": "candidate",
-      "stageLabel": "Candidate built, release gated",
+      "stage": "public",
+      "stageLabel": "Public functionality verified",
       "gates": {
         "approved": true,
         "built": true,
         "tested": false,
-        "independentQa": false,
-        "publicFunctionality": false,
+        "independentQa": true,
+        "publicFunctionality": true,
         "paidFulfillment": false
       },
-      "completedGates": 2,
+      "completedGates": 4,
       "totalGates": 6,
-      "web": "unverified",
-      "download": "not_built",
+      "web": "public_functional_verified",
+      "download": "unverified",
       "install": "not_built",
-      "qa": "unverified",
-      "checkout": "not_configured",
+      "qa": "independently_accepted",
+      "checkout": "unverified",
       "evidence": "Verify exact artifact and release evidence before public promotion."
     },
     {
@@ -512,18 +512,18 @@
     }
   ],
   "counts": {
-    "queued": 12,
-    "candidates": 6,
-    "publicFunctionalityVerified": 2,
+    "queued": 10,
+    "candidates": 1,
+    "publicFunctionalityVerified": 9,
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
     "missionId": "svp-approved-08-customer-onboarding-portal-grok-r1-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T16:23:45.067828+00:00",
+    "heartbeatAtUtc": "2026-10-15T16:26:45.240599+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 274,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -535,67 +535,67 @@
   ],
   "activity": [
     {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 8,
+      "message": "Product focus moved to #8 Customer Onboarding Portal."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 13,
+      "message": "#13 SOP-to-Checklist Builder: candidate → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 12,
+      "message": "#12 Service Menu & Rate Card Builder: candidate → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 9,
+      "message": "#9 Deposit & Milestone Tracker: candidate → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 7,
+      "message": "#7 Job Completion Evidence Pack: candidate → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 6,
+      "message": "#6 Repeat-Booking Reminder Kit: candidate → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 5,
+      "message": "#5 Referral Campaign Tracker: candidate → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 4,
+      "message": "#4 Smart Customer Intake Form: queued → candidate; 2/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 3,
+      "message": "#3 Contractor Change-Order Approval: public → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 2,
+      "message": "#2 Review Request Campaign Kit: public → public; 4/6 verification gates."
+    },
+    {
+      "atUtc": "2026-10-15T16:26:59.765Z",
+      "productId": 1,
+      "message": "#1 Appointment Gap Filler: queued → public; 4/6 verification gates."
+    },
+    {
       "atUtc": "2026-10-15T16:12:06.544Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T15:46:00.428Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-15T15:23:00.220Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T04:41:00.330Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-15T04:26:01.927Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T03:41:59.736Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-15T03:26:00.709Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T02:57:00.349Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-15T02:37:00.236Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T02:35:00.187Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
-    },
-    {
-      "atUtc": "2026-10-15T02:31:00.149Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T02:25:00.794Z",
-      "productId": null,
-      "message": "Executor last outcome changed to BLOCKED."
     }
   ],
-  "checkedAtUtc": "2026-10-15T16:23:59.703Z",
-  "materialFingerprint": "350473da649d8035e8e123ecf5924e0f80c556d77166b1434fae1a1dd672a814",
-  "materialChangedAtUtc": "2026-10-15T16:12:06.544Z"
+  "checkedAtUtc": "2026-10-15T16:26:59.765Z",
+  "materialFingerprint": "8df175642c78e2f1d7b14c9698d7354d42a176633caf7376805bf1b3f8f549c8",
+  "materialChangedAtUtc": "2026-10-15T16:26:59.765Z"
 }
