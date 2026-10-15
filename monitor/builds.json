@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "svp-approved-01-appointment-gap-filler-grok-r2-20261015",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T01:23:40.712578+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-15T01:29:31.559914+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
     "blockedMissions": 272,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "lastMissionOutcome": "done",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T01:30:00.528Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
     {
       "atUtc": "2026-10-15T00:51:00.182Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-14T04:12:01.261Z",
       "productId": 3,
       "message": "#3 Contractor Change-Order Approval: candidate → reviewed; 3/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-14T03:44:00.264Z",
-      "productId": 3,
-      "message": "#3 Contractor Change-Order Approval: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T01:24:00.548Z",
-  "materialFingerprint": "2a37755c28ab387024a482aff40e18f546713d14315b0ad2bc1c3303e2f40686",
-  "materialChangedAtUtc": "2026-10-15T00:51:00.182Z"
+  "checkedAtUtc": "2026-10-15T01:30:00.528Z",
+  "materialFingerprint": "7369c34a7a74d940eacff5e141cb8a4c0b8a45d877b1a263545f962717b8ad70",
+  "materialChangedAtUtc": "2026-10-15T01:30:00.528Z"
 }
