@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-approved-04-smart-customer-intake-form-repair-r2-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T16:44:45.873492+00:00",
+    "heartbeatAtUtc": "2026-10-15T16:49:46.321564+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 2,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-15T16:44:59.892Z",
+  "checkedAtUtc": "2026-10-15T16:49:59.946Z",
   "materialFingerprint": "97e84064dcf3420898c2e86cb52d826bb41176e80dbec7fc2049d82214ff4933",
   "materialChangedAtUtc": "2026-10-15T16:44:59.892Z"
 }
