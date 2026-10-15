@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-site-front-door-r3-1-cross-family-acceptance-grok-v2-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T03:30:41.458932+00:00",
+    "heartbeatAtUtc": "2026-10-15T03:36:41.595215+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#9 Deposit & Milestone Tracker: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T03:31:00.716Z",
+  "checkedAtUtc": "2026-10-15T03:36:59.710Z",
   "materialFingerprint": "0271c5fb2ecc32ac6b056a28dd7cc612eb62d7af202b48048192ad570b1303e5",
   "materialChangedAtUtc": "2026-10-15T03:26:00.709Z"
 }
