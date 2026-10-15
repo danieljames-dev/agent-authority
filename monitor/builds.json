@@ -520,13 +520,13 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T20:56:51.152400+00:00",
+    "heartbeatAtUtc": "2026-10-15T21:00:53.057340+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
-    "waitingMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 277,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "retry",
+    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T21:00:59.911Z",
+      "productId": null,
+      "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
+    },
     {
       "atUtc": "2026-10-15T19:51:00.409Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T16:26:59.765Z",
       "productId": 12,
       "message": "#12 Service Menu & Rate Card Builder: candidate → public; 4/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T16:26:59.765Z",
-      "productId": 9,
-      "message": "#9 Deposit & Milestone Tracker: candidate → public; 4/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T20:56:59.806Z",
-  "materialFingerprint": "c1fc5ccd91d44135507734501c7143fe97cbf1e95bc71effe19dd4fc2a83a232",
-  "materialChangedAtUtc": "2026-10-15T19:51:00.409Z"
+  "checkedAtUtc": "2026-10-15T21:00:59.911Z",
+  "materialFingerprint": "19b04c00210efb4fa514d050d192f739b568689983e6c96ff5c986aa5a2e4172",
+  "materialChangedAtUtc": "2026-10-15T21:00:59.911Z"
 }
