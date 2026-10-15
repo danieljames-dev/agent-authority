@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T04:46:43.020434+00:00",
+    "heartbeatAtUtc": "2026-10-15T04:51:49.875939+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-15T04:47:00.265Z",
+  "checkedAtUtc": "2026-10-15T04:52:00.381Z",
   "materialFingerprint": "9111fcb99260d0b171a3a7a5f5f128db00f642cf4ea71524a73c5551b7e2f675",
   "materialChangedAtUtc": "2026-10-15T04:41:00.330Z"
 }
