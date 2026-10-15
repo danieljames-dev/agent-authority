@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T03:46:54.944705+00:00",
+    "heartbeatAtUtc": "2026-10-15T03:51:55.825425+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "#12 Service Menu & Rate Card Builder: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T03:46:59.756Z",
+  "checkedAtUtc": "2026-10-15T03:51:59.816Z",
   "materialFingerprint": "9111fcb99260d0b171a3a7a5f5f128db00f642cf4ea71524a73c5551b7e2f675",
   "materialChangedAtUtc": "2026-10-15T03:41:59.736Z"
 }
