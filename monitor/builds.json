@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T03:23:45.214044+00:00",
+    "missionId": "svp-site-front-door-r3-1-cross-family-acceptance-grok-v2-20261015",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-15T03:25:41.301340+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 274,
-    "lastMissionOutcome": "done",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T03:26:00.709Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-15T02:57:00.349Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T00:50:00.496Z",
       "productId": 9,
       "message": "#9 Deposit & Milestone Tracker: queued → candidate; 2/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T00:50:00.496Z",
-      "productId": 7,
-      "message": "#7 Job Completion Evidence Pack: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T03:24:00.742Z",
-  "materialFingerprint": "9111fcb99260d0b171a3a7a5f5f128db00f642cf4ea71524a73c5551b7e2f675",
-  "materialChangedAtUtc": "2026-10-15T02:57:00.349Z"
+  "checkedAtUtc": "2026-10-15T03:26:00.709Z",
+  "materialFingerprint": "0271c5fb2ecc32ac6b056a28dd7cc612eb62d7af202b48048192ad570b1303e5",
+  "materialChangedAtUtc": "2026-10-15T03:26:00.709Z"
 }
