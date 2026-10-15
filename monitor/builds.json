@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T02:34:58.227694+00:00",
+    "missionId": "svp-approved-01-appointment-gap-filler-repair-r2-grok-v2-20261015",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-15T02:36:54.967122+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 274,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-15T02:37:00.236Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-15T02:35:00.187Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T00:50:00.496Z",
       "productId": 6,
       "message": "#6 Repeat-Booking Reminder Kit: queued → candidate; 2/6 verification gates."
-    },
-    {
-      "atUtc": "2026-10-15T00:50:00.496Z",
-      "productId": 5,
-      "message": "#5 Referral Campaign Tracker: queued → candidate; 2/6 verification gates."
     }
   ],
-  "checkedAtUtc": "2026-10-15T02:35:00.187Z",
-  "materialFingerprint": "f21a033c067b0956cdeb1339eeb7c23465afd5d2c0eb70fb438dfac7af217050",
-  "materialChangedAtUtc": "2026-10-15T02:35:00.187Z"
+  "checkedAtUtc": "2026-10-15T02:37:00.236Z",
+  "materialFingerprint": "87e8150709ad05cd2bccf1f92daa49154ca049e7b0beec6f520ea8aea16d841b",
+  "materialChangedAtUtc": "2026-10-15T02:37:00.236Z"
 }
