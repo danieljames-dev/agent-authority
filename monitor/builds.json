@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "svp-x402-gateway-agent-ready-r2-2-cross-family-acceptance-grok-20261015",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-15T02:05:40.611617+00:00",
+    "heartbeatAtUtc": "2026-10-15T02:11:41.476320+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 1,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to EXECUTED."
     }
   ],
-  "checkedAtUtc": "2026-10-15T02:06:01.002Z",
+  "checkedAtUtc": "2026-10-15T02:12:00.723Z",
   "materialFingerprint": "9009e4dd42e9bcc36fa82d4fb9399b3044abcaf8cea499f19c1380bf98d8d799",
   "materialChangedAtUtc": "2026-10-15T02:06:01.002Z"
 }
