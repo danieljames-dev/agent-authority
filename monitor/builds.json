@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-15T00:06:31.590271+00:00",
+    "heartbeatAtUtc": "2026-10-15T00:11:33.175856+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Independent QA mission exited active execution; verdict must be inspected before gate advances."
     }
   ],
-  "checkedAtUtc": "2026-10-15T00:06:59.891Z",
+  "checkedAtUtc": "2026-10-15T00:12:00.488Z",
   "materialFingerprint": "6e6d555201366f5b4d20ed577296f8096f16844eee7aadb427e4de94751f2cc2",
   "materialChangedAtUtc": "2026-10-14T23:56:59.599Z"
 }
