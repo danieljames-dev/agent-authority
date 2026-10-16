@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "site-concierge-one-page-acceptance-r2-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T22:03:47.538450+00:00",
+    "heartbeatAtUtc": "2026-10-16T22:08:58.176014+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 2,
@@ -595,7 +595,7 @@
       "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T22:03:59.742Z",
+  "checkedAtUtc": "2026-10-16T22:08:59.908Z",
   "materialFingerprint": "a2862e2364a850539aa5c681e2f80e608c9979647add35e88bd422f818d943d1",
   "materialChangedAtUtc": "2026-10-16T21:58:05.872Z"
 }
