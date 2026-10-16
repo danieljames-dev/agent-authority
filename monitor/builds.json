@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "ashley-playwright-integration-r1-20261016-s1-20261016T222839Z",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T22:42:57.475313+00:00",
+    "heartbeatAtUtc": "2026-10-16T22:48:57.856335+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T22:43:07.797Z",
+  "checkedAtUtc": "2026-10-16T22:49:00.154Z",
   "materialFingerprint": "ee04b22d103559c1591e677b9577144f2e9d470e8ac19142bf5e00585589b6e9",
   "materialChangedAtUtc": "2026-10-16T22:43:07.797Z"
 }
