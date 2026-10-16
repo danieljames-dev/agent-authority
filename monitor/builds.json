@@ -518,13 +518,13 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "checkout-delivery-map-r2-20261016",
+    "missionId": "site-concierge-one-page-acceptance-r2-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T21:54:31.186316+00:00",
+    "heartbeatAtUtc": "2026-10-16T21:57:44.564383+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 3,
-    "blockedMissions": 284,
+    "waitingMissions": 2,
+    "blockedMissions": 285,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
   },
@@ -595,7 +595,7 @@
       "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T21:55:01.875Z",
-  "materialFingerprint": "8df21256b6be8c311f33021534aa1904ce2686452d609e0077d66fbb492b7ed3",
-  "materialChangedAtUtc": "2026-10-16T21:43:17.819Z"
+  "checkedAtUtc": "2026-10-16T21:58:05.872Z",
+  "materialFingerprint": "a2862e2364a850539aa5c681e2f80e608c9979647add35e88bd422f818d943d1",
+  "materialChangedAtUtc": "2026-10-16T21:58:05.872Z"
 }
