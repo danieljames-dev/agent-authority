@@ -520,10 +520,10 @@
   "executor": {
     "missionId": "website-bot-revenue-chain-r2-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T21:27:50.280471+00:00",
+    "heartbeatAtUtc": "2026-10-16T21:33:51.314040+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 3,
+    "waitingMissions": 4,
     "blockedMissions": 283,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T21:28:06.684Z",
-  "materialFingerprint": "5c2b0cf4329deb4745c1b1931e4d87715f2763daec3366520ebcf9ca7dddb6f3",
-  "materialChangedAtUtc": "2026-10-16T21:28:06.684Z"
+  "checkedAtUtc": "2026-10-16T21:34:00.521Z",
+  "materialFingerprint": "c755aa3c2298ac9c70bf1afaedd9a21ca79afd1a1206b32d28873ac942463d3a",
+  "materialChangedAtUtc": "2026-10-16T21:34:00.521Z"
 }
