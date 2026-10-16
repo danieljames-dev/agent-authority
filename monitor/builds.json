@@ -518,13 +518,13 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "website-bot-revenue-chain-r1-20261016",
+    "missionId": "checkout-delivery-map-r1-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T21:15:49.732332+00:00",
+    "heartbeatAtUtc": "2026-10-16T21:19:40.409393+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 2,
-    "blockedMissions": 281,
+    "waitingMissions": 1,
+    "blockedMissions": 282,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
   },
@@ -595,7 +595,7 @@
       "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T21:16:01.574Z",
-  "materialFingerprint": "8129e60fb24f323784a49b6cff1b4e2ce19cb4084dcac5ce9aeba63839c4b014",
-  "materialChangedAtUtc": "2026-10-16T21:16:01.574Z"
+  "checkedAtUtc": "2026-10-16T21:20:01.691Z",
+  "materialFingerprint": "6f8336d3fb491dc5e01f9e9c9fe3fee5f66ab27b050634b3fe6046406ada4347",
+  "materialChangedAtUtc": "2026-10-16T21:20:01.691Z"
 }
