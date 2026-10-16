@@ -518,12 +518,12 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "site-concierge-one-page-acceptance-r2-20261016",
+    "missionId": "ashley-playwright-integration-r1-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T22:08:58.176014+00:00",
+    "heartbeatAtUtc": "2026-10-16T22:12:49.467811+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 2,
+    "waitingMissions": 1,
     "blockedMissions": 285,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T22:08:59.908Z",
-  "materialFingerprint": "a2862e2364a850539aa5c681e2f80e608c9979647add35e88bd422f818d943d1",
-  "materialChangedAtUtc": "2026-10-16T21:58:05.872Z"
+  "checkedAtUtc": "2026-10-16T22:13:00.671Z",
+  "materialFingerprint": "b9a112a11083dcdc1a69bc3a9efed0218a00233ae085abd57d23e8f72af92910",
+  "materialChangedAtUtc": "2026-10-16T22:13:00.672Z"
 }
