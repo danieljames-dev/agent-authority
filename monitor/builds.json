@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "ashley-playwright-integration-r1-20261016-s1-20261016T222839Z",
-    "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-16T22:53:58.028588+00:00",
+    "missionId": "",
+    "state": "WATCHING",
+    "heartbeatAtUtc": "2026-10-16T22:57:46.448859+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
-    "blockedMissions": 287,
-    "lastMissionOutcome": "unknown",
-    "lastMissionState": "unknown"
+    "blockedMissions": 288,
+    "lastMissionOutcome": "blocked",
+    "lastMissionState": "EXECUTED"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-16T22:58:00.190Z",
+      "productId": null,
+      "message": "Executor last outcome changed to EXECUTED."
+    },
     {
       "atUtc": "2026-10-16T21:16:01.574Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T16:51:00.182Z",
       "productId": 4,
       "message": "Product focus moved to #4 Smart Customer Intake Form."
-    },
-    {
-      "atUtc": "2026-10-15T16:26:59.765Z",
-      "productId": 8,
-      "message": "Product focus moved to #8 Customer Onboarding Portal."
     }
   ],
-  "checkedAtUtc": "2026-10-16T22:54:00.187Z",
-  "materialFingerprint": "ee04b22d103559c1591e677b9577144f2e9d470e8ac19142bf5e00585589b6e9",
-  "materialChangedAtUtc": "2026-10-16T22:43:07.797Z"
+  "checkedAtUtc": "2026-10-16T22:58:00.190Z",
+  "materialFingerprint": "3238151854b9b237d38008babb3325a4e6570c0af5f23d64b22cbf7a54d7b96e",
+  "materialChangedAtUtc": "2026-10-16T22:58:00.190Z"
 }
