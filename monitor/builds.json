@@ -520,10 +520,10 @@
   "executor": {
     "missionId": "ashley-aion-consolidation-810ba18-grok-review-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-17T00:03:52.200665+00:00",
+    "heartbeatAtUtc": "2026-10-17T00:04:52.275892+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 1,
+    "waitingMissions": 2,
     "blockedMissions": 290,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-17T00:03:59.897Z",
-  "materialFingerprint": "338c67e023e1895a439f3c5d1ac7e9cdab4ca387aa586ff0da2fb04d08ed9a7a",
-  "materialChangedAtUtc": "2026-10-17T00:03:59.897Z"
+  "checkedAtUtc": "2026-10-17T00:04:59.793Z",
+  "materialFingerprint": "2eea92a047da6027c72b468854bfd60de167c6187d1ade0b8e703f24c8f49d62",
+  "materialChangedAtUtc": "2026-10-17T00:04:59.793Z"
 }
