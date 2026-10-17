@@ -522,9 +522,9 @@
     "state": "ACTIVE",
     "heartbeatAtUtc": "2026-10-17T03:10:16.019505+00:00",
     "heartbeatHealthy": false,
-    "activeMissions": 1,
+    "activeMissions": 0,
     "waitingMissions": 0,
-    "blockedMissions": 294,
+    "blockedMissions": 295,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
   },
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
     }
   ],
-  "checkedAtUtc": "2026-10-17T03:30:03.040Z",
-  "materialFingerprint": "c55cb9b1eebe2434460b584cd29d7b19bf53f774b63bcbed35c6f10297c2b757",
-  "materialChangedAtUtc": "2026-10-17T03:13:01.114Z"
+  "checkedAtUtc": "2026-10-17T03:33:00.636Z",
+  "materialFingerprint": "d45efad19799328612a74d85d894d17c296f81115e1b15c794bf81304348efa3",
+  "materialChangedAtUtc": "2026-10-17T03:33:00.636Z"
 }
