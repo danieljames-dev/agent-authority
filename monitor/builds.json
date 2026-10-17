@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "website-bot-paid-fulfillment-814de9d-grok-review-20261017",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-17T01:22:49.394629+00:00",
+    "heartbeatAtUtc": "2026-10-17T01:28:49.634229+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-17T01:23:00.507Z",
+  "checkedAtUtc": "2026-10-17T01:29:00.500Z",
   "materialFingerprint": "92c0ca815fe9d7a3a12c4a11d2a375227f839fe74c1b704802bf0bdd711f066a",
   "materialChangedAtUtc": "2026-10-17T01:23:00.507Z"
 }
