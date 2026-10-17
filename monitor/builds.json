@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-17T02:55:50.805672+00:00",
+    "missionId": "taskmarket-game-build-r1-20261016",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-17T03:01:41.361029+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
+    "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 293,
-    "lastMissionOutcome": "done",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-17T03:02:07.668Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-17T01:30:00.468Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-17T00:02:59.856Z",
       "productId": null,
       "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
-    },
-    {
-      "atUtc": "2026-10-17T00:00:59.729Z",
-      "productId": null,
-      "message": "Executor last outcome changed to EXECUTED."
     }
   ],
-  "checkedAtUtc": "2026-10-17T02:56:01.258Z",
-  "materialFingerprint": "650df3259f1fe385f56e0f0640dd910b559540f2b84ae518272487f80b36dd70",
-  "materialChangedAtUtc": "2026-10-17T01:30:00.468Z"
+  "checkedAtUtc": "2026-10-17T03:02:07.668Z",
+  "materialFingerprint": "ea9d2c242549ca35e536e2a5fb4888f3168fb74df540cba574f1ce3873c9f26c",
+  "materialChangedAtUtc": "2026-10-17T03:02:07.668Z"
 }
