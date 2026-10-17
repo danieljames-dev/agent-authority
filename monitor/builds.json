@@ -518,12 +518,12 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "ashley-aion-consolidation-810ba18-grok-review-20261016",
+    "missionId": "clawlancer-faq-candidate-independent-review-r1-20261016",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-17T00:04:52.275892+00:00",
+    "heartbeatAtUtc": "2026-10-17T00:09:57.812812+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 2,
+    "waitingMissions": 1,
     "blockedMissions": 290,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-17T00:04:59.793Z",
-  "materialFingerprint": "2eea92a047da6027c72b468854bfd60de167c6187d1ade0b8e703f24c8f49d62",
-  "materialChangedAtUtc": "2026-10-17T00:04:59.793Z"
+  "checkedAtUtc": "2026-10-17T00:10:00.480Z",
+  "materialFingerprint": "ed79f21ab322d4fdc08f79eb9eb5f84bf10f9d6fad39fcec8a86053e10ab3d2b",
+  "materialChangedAtUtc": "2026-10-17T00:10:00.480Z"
 }
