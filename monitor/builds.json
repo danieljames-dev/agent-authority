@@ -520,13 +520,13 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-17T00:00:29.783798+00:00",
+    "heartbeatAtUtc": "2026-10-17T00:02:43.956363+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
-    "waitingMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 289,
-    "lastMissionOutcome": "blocked",
-    "lastMissionState": "EXECUTED"
+    "lastMissionOutcome": "retry",
+    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-17T00:02:59.856Z",
+      "productId": null,
+      "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
+    },
     {
       "atUtc": "2026-10-17T00:00:59.729Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-15T18:02:00.464Z",
       "productId": null,
       "message": "Executor last outcome changed to RETRYABLE_PROVIDER_FAILURE."
-    },
-    {
-      "atUtc": "2026-10-15T17:32:00.228Z",
-      "productId": null,
-      "message": "Executor last outcome changed to unknown."
     }
   ],
-  "checkedAtUtc": "2026-10-17T00:00:59.729Z",
-  "materialFingerprint": "9282d95db62afa95139042f04525096de9c1c7efe36aa47a68f901e147ae5863",
-  "materialChangedAtUtc": "2026-10-17T00:00:59.729Z"
+  "checkedAtUtc": "2026-10-17T00:02:59.856Z",
+  "materialFingerprint": "6124c7dce03ea7c26fe8bbbf6285a03d82996db804586b6b40021bf3a817b6fd",
+  "materialChangedAtUtc": "2026-10-17T00:02:59.856Z"
 }
