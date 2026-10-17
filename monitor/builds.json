@@ -520,8 +520,8 @@
   "executor": {
     "missionId": "svp-catalog-secure-app-help-canary-20261017-r1",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-17T03:08:46.005285+00:00",
-    "heartbeatHealthy": true,
+    "heartbeatAtUtc": "2026-10-17T03:10:16.019505+00:00",
+    "heartbeatHealthy": false,
     "activeMissions": 1,
     "waitingMissions": 0,
     "blockedMissions": 294,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
     }
   ],
-  "checkedAtUtc": "2026-10-17T03:09:00.415Z",
-  "materialFingerprint": "332e9c202f0dc217b7b60e1147998c21e1d8587cd1ce3aed6f9b628a6bd93576",
-  "materialChangedAtUtc": "2026-10-17T03:09:00.415Z"
+  "checkedAtUtc": "2026-10-17T03:13:01.114Z",
+  "materialFingerprint": "c55cb9b1eebe2434460b584cd29d7b19bf53f774b63bcbed35c6f10297c2b757",
+  "materialChangedAtUtc": "2026-10-17T03:13:01.114Z"
 }
