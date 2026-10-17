@@ -518,15 +518,15 @@
     "paidAndFulfillmentVerified": 0
   },
   "executor": {
-    "missionId": "",
-    "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-17T00:24:30.543096+00:00",
+    "missionId": "clawlancer-faq-candidate-independent-review-r1-20261016-s1-20261017T001628Z",
+    "state": "ACTIVE",
+    "heartbeatAtUtc": "2026-10-17T00:25:30.727307+00:00",
     "heartbeatHealthy": true,
-    "activeMissions": 0,
-    "waitingMissions": 1,
+    "activeMissions": 1,
+    "waitingMissions": 0,
     "blockedMissions": 292,
-    "lastMissionOutcome": "retry",
-    "lastMissionState": "RETRYABLE_PROVIDER_FAILURE"
+    "lastMissionOutcome": "unknown",
+    "lastMissionState": "unknown"
   },
   "criticalNotes": [
     "Only one newly approved SKU in active construction; selection is not proof an executor is actively building.",
@@ -534,6 +534,11 @@
     "Premium prices are proposed only; no checkout or settlement is claimed."
   ],
   "activity": [
+    {
+      "atUtc": "2026-10-17T00:26:00.650Z",
+      "productId": null,
+      "message": "Executor last outcome changed to unknown."
+    },
     {
       "atUtc": "2026-10-17T00:25:04.691Z",
       "productId": null,
@@ -588,14 +593,9 @@
       "atUtc": "2026-10-16T21:16:01.574Z",
       "productId": null,
       "message": "Executor last outcome changed to unknown."
-    },
-    {
-      "atUtc": "2026-10-15T21:01:59.858Z",
-      "productId": null,
-      "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
     }
   ],
-  "checkedAtUtc": "2026-10-17T00:25:04.691Z",
-  "materialFingerprint": "6db0ac725cdd4737b1e02deaa58f373afb7854ddc0884178d3c81b540f311728",
-  "materialChangedAtUtc": "2026-10-17T00:25:04.692Z"
+  "checkedAtUtc": "2026-10-17T00:26:00.650Z",
+  "materialFingerprint": "862c8efe40d3e96ca9d5c6014e3117f514dead02b9d74d71724d4c3e5dbd5f5c",
+  "materialChangedAtUtc": "2026-10-17T00:26:00.650Z"
 }
