@@ -520,10 +520,10 @@
   "executor": {
     "missionId": "website-bot-download-fix-b87309e-grok-review-20261019",
     "state": "ACTIVE",
-    "heartbeatAtUtc": "2026-10-19T01:15:34.373201+00:00",
+    "heartbeatAtUtc": "2026-10-19T01:19:34.511207+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 1,
-    "waitingMissions": 0,
+    "waitingMissions": 1,
     "blockedMissions": 296,
     "lastMissionOutcome": "unknown",
     "lastMissionState": "unknown"
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
     }
   ],
-  "checkedAtUtc": "2026-10-19T01:16:07.383Z",
-  "materialFingerprint": "c41d5cae5ef3662952e7e2d2e3a9f1faed7101c2907dab2f8de84280d21ebe58",
-  "materialChangedAtUtc": "2026-10-19T01:16:07.383Z"
+  "checkedAtUtc": "2026-10-19T01:20:05.998Z",
+  "materialFingerprint": "67e9868281e0cd06c147546e1736634785580a03d968e58803c2bc1c28a6b72b",
+  "materialChangedAtUtc": "2026-10-19T01:20:05.998Z"
 }
