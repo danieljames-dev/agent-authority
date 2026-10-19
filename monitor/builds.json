@@ -520,7 +520,7 @@
   "executor": {
     "missionId": "",
     "state": "WATCHING",
-    "heartbeatAtUtc": "2026-10-19T00:57:30.823371+00:00",
+    "heartbeatAtUtc": "2026-10-19T01:03:31.168801+00:00",
     "heartbeatHealthy": true,
     "activeMissions": 0,
     "waitingMissions": 0,
@@ -595,7 +595,7 @@
       "message": "Executor last outcome changed to BLOCKED_PROVIDER_EXHAUSTED."
     }
   ],
-  "checkedAtUtc": "2026-10-19T00:58:00.474Z",
+  "checkedAtUtc": "2026-10-19T01:04:00.518Z",
   "materialFingerprint": "cb46fd8f1e00ec89e6e2cc4e7d6fa905012340d5dd5008e2a931b4e8e144b0d3",
   "materialChangedAtUtc": "2026-10-19T00:58:00.474Z"
 }
